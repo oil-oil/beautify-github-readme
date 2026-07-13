@@ -7,42 +7,14 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/section-showcases.svg" width="100%" alt="五个项目，五种做法。">
+  <img src="./assets/readme/section-used-by.svg" width="100%" alt="这些 README 已经在使用 beautify-github-readme。">
 </p>
 
-下面五张图都从真实项目的功能和素材出发。图片里不放我们的名称，也不要求项目替我们宣传；它们先作为本地概念稿，只有维护者感兴趣时才会进一步沟通。
+这不是一组假想模板。下面三个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
 
-<p align="center">
-  <a href="https://github.com/betterleaks/betterleaks"><img src="./showcases/betterleaks/hero.svg" width="100%" alt="Betterleaks README 标题概念：把密钥发现、过滤和验证组织成黑白安全扫描界面。"></a>
-</p>
-
-**[Betterleaks](https://github.com/betterleaks/betterleaks)** · 直接把 Secret token 和 `Find → Filter → Validate` 放进首屏，让人先看懂它怎样减少误报。
-
-<p align="center">
-  <a href="https://github.com/tddworks/baguette"><img src="./showcases/baguette/hero.svg" width="100%" alt="Baguette README 标题概念：深色 iOS 模拟器控制台、实时手势轨迹和多设备画面。"></a>
-</p>
-
-**[Baguette](https://github.com/tddworks/baguette)** · 用 iOS 设备、实时手势和 60fps 状态说清楚它不是普通 CLI，而是一套无头模拟器控制面。
-
-<p align="center">
-  <a href="https://github.com/FuJacob/cotabby"><img src="./showcases/cotabby/hero.svg" width="100%" alt="Cotabby README 标题概念：macOS 输入框里的灰色行内补全和 Tab 接受提示。"></a>
-</p>
-
-**[Cotabby](https://github.com/FuJacob/cotabby)** · 不画抽象 AI，直接展示灰色建议怎样出现在输入框里，以及按 `Tab` 接受的那一刻。
-
-<p align="center">
-  <a href="https://github.com/eval-exec/neomacs"><img src="./showcases/neomacs/hero.svg" width="100%" alt="Neomacs README 标题概念：黑色编辑器界面连接 Emacs Lisp、Rust Core 和 GPU。"></a>
-</p>
-
-**[Neomacs](https://github.com/eval-exec/neomacs)** · 保留 Emacs 的代码感，用 `ELISP → RUST CORE → GPU` 解释这次重写真正改变了什么，同时明确标出 Alpha 状态。
-
-<p align="center">
-  <a href="https://github.com/realskyrin/capcap"><img src="./showcases/capcap/hero.svg" width="100%" alt="capcap README 标题概念：原生 macOS 截图选区、标注箭头和浮动工具栏。"></a>
-</p>
-
-**[capcap](https://github.com/realskyrin/capcap)** · 沿用项目本来的 macOS 语言，把双击 `⌘`、截图选区和标注工具栏合成一张完整的使用画面。
-
-[查看案例的设计依据与读取版本](./showcases/README.md)
+- **[oil-ppt](https://github.com/oil-oil/oil-ppt)** · 把程序化 PPT 的方法、效果和使用路径放在同一套视觉系统里。
+- **[draw-ui](https://github.com/oil-oil/draw-ui)** · 用真实 UI 设计稿解释从需求、参考图到 HTML/CSS 还原的过程。
+- **[Selector](https://github.com/oil-oil/selector)** · 把网页选取、结构化上下文和实际输出直接放进首屏与示例。
 
 下面是四个独立的标题示例。它们不共用同一种风格，只根据项目本身决定字体、颜色和右侧放什么。
 
