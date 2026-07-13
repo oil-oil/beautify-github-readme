@@ -81,6 +81,7 @@ Read [references/github-readme-canvas.md](references/github-readme-canvas.md) an
 - Use one reusable component grammar, but vary the art direction by repository theme.
 - When a showcase contains several artifacts, arrange them with controlled scale, overlap, rotation, and whitespace; keep reading order obvious.
 - Let the hero absorb a real project diagram, screenshot, code fragment, output, specimen, or artifact when it makes the first screen more useful. Do not separate the title and proof by habit.
+- When the user explicitly wants attribution in a repository they own, design a compact project-native `README MADE WITH` SVG instead of leaving a plain promotional sentence. Keep it near the footer and link it to this Skill. Never add this credit to a third-party repository without the maintainer's explicit request.
 
 Do not rasterize the whole README. Do not use scripts, `foreignObject`, remote fonts, essential animation, or CSS that GitHub strips. Avoid decorative borders and heavy shadows unless the theme genuinely calls for them.
 
