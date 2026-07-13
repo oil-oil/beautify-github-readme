@@ -10,10 +10,11 @@
   <img src="./assets/readme/section-used-by.svg" width="100%" alt="这些 README 已经在使用 beautify-github-readme。">
 </p>
 
-这不是一组假想模板。下面三个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
+这不是一组假想模板。下面四个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** · 把程序化 PPT 的方法、效果和使用路径放在同一套视觉系统里。
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** · 用真实 UI 设计稿解释从需求、参考图到 HTML/CSS 还原的过程。
+- **[oil-icon](https://github.com/oil-oil/oil-icon)** · 用两套真实图标作品解释风格锁定、整套生成、切图与透明背景交付。
 - **[Selector](https://github.com/oil-oil/selector)** · 把网页选取、结构化上下文和实际输出直接放进首屏与示例。
 
 下面是四个独立的标题示例。它们不共用同一种风格，只根据项目本身决定字体、颜色和右侧放什么。
