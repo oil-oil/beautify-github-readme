@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Cotabby README hero concept</title>
+  <desc id="desc">A quiet macOS autocomplete scene with inline ghost text, a Tab key, and on-device privacy cues.</desc>
+  <rect width="1200" height="460" rx="28" fill="#F6F8FB"/>
+  <circle cx="1086" cy="48" r="6" fill="#FF5F57"/><circle cx="1108" cy="48" r="6" fill="#FFBD2E"/><circle cx="1130" cy="48" r="6" fill="#28C840"/>
+  <g transform="translate(70 64)">
+    <rect width="58" height="58" rx="17" fill="#1677FF"/>
+    <path d="M16 18l9-9 6 11 11-7 3 18c2 12-6 20-16 20S12 43 14 31z" fill="#FFF"/>
+    <path d="M23 34c3 4 9 4 12 0" fill="none" stroke="#1677FF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="207" fill="#151A21" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-3">Cotabby</text>
+  <rect x="337" y="152" width="64" height="29" rx="14.5" fill="#E8F1FF"/>
+  <text x="353" y="172" fill="#1677FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">BETA</text>
+  <text x="72" y="251" fill="#46505C" font-family="Arial, Helvetica, sans-serif" font-size="23">Autocomplete, right where you type.</text>
+  <text x="72" y="284" fill="#737D88" font-family="Arial, Helvetica, sans-serif" font-size="21">On-device. No account. No telemetry.</text>
+  <g transform="translate(70 342)" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">
+    <circle cx="10" cy="10" r="10" fill="#DDF8E8"/><path d="m5 10 3 3 7-7" fill="none" stroke="#168A4A" stroke-width="2"/>
+    <text x="29" y="15" fill="#3C4854">RUNS ON YOUR MAC</text>
+  </g>
+  <g transform="translate(570 88)">
+    <rect width="560" height="286" rx="22" fill="#FFFFFF" stroke="#DCE2EA"/>
+    <rect width="560" height="46" rx="22" fill="#F1F3F6"/><rect y="24" width="560" height="22" fill="#F1F3F6"/>
+    <circle cx="24" cy="23" r="5" fill="#FF5F57"/><circle cx="42" cy="23" r="5" fill="#FFBD2E"/><circle cx="60" cy="23" r="5" fill="#28C840"/>
+    <text x="280" y="28" text-anchor="middle" fill="#929AA5" font-family="Arial, Helvetica, sans-serif" font-size="11">New message</text>
+    <circle cx="50" cy="94" r="18" fill="#1677FF"/><text x="50" y="100" text-anchor="middle" fill="#FFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">C</text>
+    <rect x="82" y="76" width="420" height="46" rx="14" fill="#F3F5F8"/>
+    <text x="102" y="105" fill="#222830" font-family="Arial, Helvetica, sans-serif" font-size="16">Send the updated deck</text>
+    <text x="288" y="105" fill="#AAB1BA" font-family="Arial, Helvetica, sans-serif" font-size="16">before the meeting?</text>
+    <rect x="82" y="151" width="420" height="80" rx="14" fill="#FFFFFF" stroke="#CDD5DF" stroke-width="2"/>
+    <text x="102" y="184" fill="#232A32" font-family="Arial, Helvetica, sans-serif" font-size="16">Can you send the updated deck</text>
+    <text x="102" y="210" fill="#AAB1BA" font-family="Arial, Helvetica, sans-serif" font-size="16">before the meeting?</text>
+    <rect x="411" y="244" width="91" height="30" rx="8" fill="#161A20"/>
+    <text x="426" y="264" fill="#FFF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">TAB ↹</text>
+    <text x="352" y="264" fill="#8B949F" font-family="Arial, Helvetica, sans-serif" font-size="11">accept</text>
+  </g>
+</svg>
