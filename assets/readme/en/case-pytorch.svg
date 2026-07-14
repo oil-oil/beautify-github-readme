@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">PyTorch README hero example</title>
+  <desc id="desc">A warm white composition with orange paths and neural-network nodes.</desc>
+  <rect width="1200" height="320" rx="26" fill="#F7F5F0"/>
+  <g transform="translate(58 40)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text fill="#77736E" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2">TENSORS / DYNAMIC NEURAL NETWORKS / GPU</text>
+    <text y="108" fill="#171717" font-size="72" font-weight="720" letter-spacing="-3">PyTorch</text>
+    <rect y="130" width="88" height="7" fill="#EE4C2C"/>
+    <text y="184" fill="#3E3B38" font-size="24" font-weight="480">Tensors, dynamic neural networks, and GPU acceleration</text>
+  </g>
+  <g transform="translate(738 32)">
+    <path d="M22 232C94 232 92 94 164 94s74 138 146 138 78-180 142-180" fill="none" stroke="#EE4C2C" stroke-width="5"/>
+    <path d="M22 232C96 232 92 166 164 166s74 66 146 66 76-104 142-104" fill="none" stroke="#171717" stroke-opacity=".22" stroke-width="2"/>
+    <g fill="#F7F5F0" stroke="#171717" stroke-width="2"><circle cx="22" cy="232" r="14"/><circle cx="164" cy="94" r="14"/><circle cx="164" cy="166" r="14"/><circle cx="310" cy="232" r="14"/><circle cx="452" cy="52" r="14"/><circle cx="452" cy="128" r="14"/></g>
+    <g fill="#EE4C2C"><circle cx="22" cy="232" r="5"/><circle cx="164" cy="94" r="5"/><circle cx="310" cy="232" r="5"/><circle cx="452" cy="52" r="5"/></g>
+  </g>
+  <text x="58" y="288" fill="#8A8680" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">pytorch / pytorch</text>
+</svg>

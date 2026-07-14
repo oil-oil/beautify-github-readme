@@ -21,6 +21,24 @@ These are not hypothetical templates. The method is already used by four public 
 - **[oil-icon](https://github.com/oil-oil/oil-icon)** — uses real icon sets to explain style locking, batch generation, slicing, and transparent delivery.
 - **[Selector](https://github.com/oil-oil/selector)** — puts page selection, structured context, and real output directly into the opening screen and examples.
 
+Below are four independent hero directions. They do not share one house style; each derives its typography, color, composition, and proof from the project itself.
+
+<p align="center">
+  <img src="./assets/readme/en/case-kubernetes.svg" width="100%" alt="Kubernetes README hero example with a black system layout and cluster relationship diagram.">
+</p>
+
+<p align="center">
+  <img src="./assets/readme/en/case-pytorch.svg" width="100%" alt="PyTorch README hero example with a warm white background and neural-network paths.">
+</p>
+
+<p align="center">
+  <img src="./assets/readme/en/case-postgresql.svg" width="100%" alt="PostgreSQL README hero example with a deep blue editorial layout and relational tables.">
+</p>
+
+<p align="center">
+  <img src="./assets/readme/en/case-rust.svg" width="100%" alt="Rust README hero example with industrial typography and code structure.">
+</p>
+
 <p align="center">
   <img src="./assets/readme/en/section-why.svg" width="100%" alt="01 Make the project clear before asking people to keep reading.">
 </p>
@@ -28,6 +46,10 @@ These are not hypothetical templates. The method is already used by four public 
 Most repositories already contain enough information. The problem is usually the order: visitors see internal terminology, installation commands, and directory trees before they understand what the project is for.
 
 `beautify-github-readme` reads the real repository first, identifies the clearest value and proof, and only then decides how the page should look.
+
+<p align="center">
+  <img src="./assets/readme/en/before-after.svg" width="100%" alt="A README changing from dense information with no clear entry point to a value, proof, method, and first-use sequence.">
+</p>
 
 In whole-README mode, it works across three layers:
 

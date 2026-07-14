@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Put the important things first</title><desc id="desc">The left README has plenty of information but no clear entry point; the right starts with value, then proof, method, and first use.</desc>
+  <rect width="1200" height="500" rx="28" fill="#EEF0F4"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <g transform="translate(56 54)">
+      <text x="0" y="0" fill="#8A919D" font-size="15" font-weight="760" letter-spacing="2">BEFORE</text>
+      <rect y="24" width="450" height="382" rx="18" fill="#FFFFFF" stroke="#D9DDE4"/>
+      <text x="28" y="70" fill="#222A36" font-size="27" font-weight="760">project-name</text>
+      <path d="M28 96h250M28 118h340M28 140h302M28 184h150M28 206h350M28 228h326M28 250h340M28 294h120M28 316h330M28 338h284M28 360h310" stroke="#C9CED7" stroke-width="9" stroke-linecap="round"/>
+      <rect x="28" y="156" width="96" height="10" rx="5" fill="#8A919D"/>
+      <rect x="28" y="266" width="112" height="10" rx="5" fill="#8A919D"/>
+      <text x="28" y="388" fill="#A1A7B0" font-size="14">Plenty of content, but no clear entry point.</text>
+    </g>
+    <g transform="translate(538 236)">
+      <circle cx="32" cy="10" r="32" fill="#FF7458"/><path d="M20 10h22M34 0l10 10-10 10" fill="none" stroke="#F7F2E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(638 54)">
+      <text x="0" y="0" fill="#6A62D9" font-size="15" font-weight="760" letter-spacing="2">AFTER</text>
+      <rect y="24" width="506" height="382" rx="18" fill="#121827"/>
+      <rect x="28" y="50" width="50" height="5" rx="3" fill="#FF7458"/>
+      <text x="28" y="106" fill="#F7F2E8" font-size="34" font-weight="780">Explain what it does first.</text><text x="28" y="144" fill="#F7F2E8" font-size="34" font-weight="780">Then show one real example.</text>
+      <rect x="28" y="174" width="450" height="116" rx="15" fill="#F5F1E9"/>
+      <rect x="46" y="194" width="128" height="76" rx="12" fill="#63D3BE"/><circle cx="110" cy="232" r="18" fill="#121827"/>
+      <path d="M196 207h190M196 230h244M196 253h172" stroke="#B8BBC1" stroke-width="8" stroke-linecap="round"/>
+      <g transform="translate(28 316)" font-size="13" font-weight="750"><rect width="138" height="44" rx="22" fill="#FF7458"/><text x="31" y="28" fill="#251A19">SEE PROOF</text><rect x="150" width="138" height="44" rx="22" fill="#252F42"/><text x="164" y="28" fill="#D6DCE7">HOW IT WORKS</text><rect x="300" width="150" height="44" rx="22" fill="#6A62D9"/><text x="326" y="28" fill="#F7F2E8">GET STARTED</text></g>
+      <text x="28" y="388" fill="#8F9AAF" font-size="14">VALUE → PROOF → METHOD → FIRST USE</text>
+    </g>
+  </g>
+</svg>

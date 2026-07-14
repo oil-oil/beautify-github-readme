@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Rust README hero example</title>
+  <desc id="desc">A warm gray industrial composition with oversized type and real code structure.</desc>
+  <rect width="1200" height="320" rx="26" fill="#ECE9E1"/>
+  <rect x="0" y="0" width="18" height="320" fill="#C64A2F"/>
+  <g transform="translate(58 38)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text fill="#66635E" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2">SYSTEMS PROGRAMMING LANGUAGE</text>
+    <text y="132" fill="#11110F" font-size="104" font-weight="830" letter-spacing="-5">RUST</text>
+    <text y="182" fill="#34322F" font-size="24" font-weight="500">Build reliable and efficient software</text>
+    <text y="238" fill="#77736D" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">rust-lang / rust</text>
+  </g>
+  <g transform="translate(758 44)">
+    <rect width="384" height="232" fill="#11110F"/>
+    <g transform="translate(26 32)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15"><text fill="#C64A2F">fn</text><text x="28" fill="#F0EDE6">main</text><text x="64" fill="#8B8780">() {</text><text x="24" y="38" fill="#8B8780">let</text><text x="60" y="38" fill="#F0EDE6">result</text><text x="116" y="38" fill="#8B8780">= build();</text><text x="24" y="76" fill="#C64A2F">match</text><text x="76" y="76" fill="#F0EDE6">result</text><text x="126" y="76" fill="#8B8780">{</text><text x="48" y="114" fill="#F0EDE6">Ok</text><text x="72" y="114" fill="#8B8780">(value) =&gt; value,</text><text x="48" y="152" fill="#F0EDE6">Err</text><text x="80" y="152" fill="#8B8780">(e) =&gt; return e,</text><text y="190" fill="#8B8780">}</text></g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">PostgreSQL README hero example</title>
+  <desc id="desc">A deep blue composition with a serif title and relational table structure.</desc>
+  <rect width="1200" height="320" rx="26" fill="#102E50"/>
+  <g transform="translate(58 38)">
+    <text fill="#8DB1D3" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2">OPEN SOURCE OBJECT-RELATIONAL DATABASE</text>
+    <text y="112" fill="#F4F1E9" font-family="Georgia,serif" font-size="65" font-weight="700" letter-spacing="-1.6">PostgreSQL</text>
+    <text y="166" fill="#C8D6E4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="24">A mature, reliable open-source database</text>
+    <path d="M0 206H530" stroke="#416889"/>
+    <g transform="translate(0 230)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12"><text fill="#F4F1E9">DATA</text><text x="84" fill="#8DB1D3">QUERY</text><text x="176" fill="#8DB1D3">INDEX</text><text x="270" fill="#8DB1D3">EXTENSION</text></g>
+  </g>
+  <g transform="translate(760 48)" fill="none" stroke="#A8C3DB" stroke-width="1.4">
+    <rect width="172" height="82"/><path d="M0 30h172M54 0v82"/><rect x="206" y="116" width="172" height="82"/><path d="M206 146h172M260 116v82"/><path d="M172 41h70v116h-36" stroke-dasharray="5 6"/>
+    <circle cx="242" cy="41" r="5" fill="#F4F1E9" stroke="none"/><circle cx="206" cy="157" r="5" fill="#F4F1E9" stroke="none"/>
+  </g>
+  <text x="1144" y="290" text-anchor="end" fill="#7195B4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">postgres / postgres</text>
+</svg>

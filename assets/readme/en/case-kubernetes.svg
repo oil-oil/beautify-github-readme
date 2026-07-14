@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Kubernetes README hero example</title>
+  <desc id="desc">A black system layout with a large sans-serif title and a cluster relationship diagram.</desc>
+  <rect width="1200" height="320" rx="26" fill="#050607"/>
+  <path d="M0 58H1200M742 0V320" stroke="#24272B"/>
+  <g transform="translate(56 34)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text fill="#858B93" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2">CONTAINER ORCHESTRATION / PRODUCTION</text>
+    <text y="108" fill="#F5F6F7" font-size="66" font-weight="710" letter-spacing="-2.4">Kubernetes</text>
+    <text y="158" fill="#B6BBC2" font-size="24" font-weight="480">Production-grade container orchestration</text>
+    <g transform="translate(0 206)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12"><text fill="#F5F6F7">CLUSTER</text><text x="106" fill="#777D85">WORKLOAD</text><text x="232" fill="#777D85">NETWORK</text><text x="350" fill="#777D85">STORAGE</text></g>
+  </g>
+  <g transform="translate(804 54)" fill="none" stroke="#DDE0E3" stroke-width="1.5">
+    <circle cx="142" cy="106" r="84" stroke="#34383D"/><circle cx="142" cy="106" r="44"/>
+    <path d="M142 62V16M180 84l50-29M180 128l50 29M142 150v46M104 128l-50 29M104 84L54 55"/>
+    <g fill="#F5F6F7" stroke="none"><circle cx="142" cy="16" r="7"/><circle cx="230" cy="55" r="7"/><circle cx="230" cy="157" r="7"/><circle cx="142" cy="196" r="7"/><circle cx="54" cy="157" r="7"/><circle cx="54" cy="55" r="7"/></g>
+    <rect x="112" y="88" width="60" height="36" rx="4"/>
+  </g>
+  <text x="1144" y="292" text-anchor="end" fill="#666C74" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">kubernetes / kubernetes</text>
+</svg>
