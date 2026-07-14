@@ -18,7 +18,7 @@ Use exactly one execution mode:
 
 If the mode is not explicit, ask one compact question before making changes:
 
-> 这次希望我优化整份 README，还是只生成 SVG 装饰？如果只做 SVG，请告诉我是首图、章节标题、流程图、徽章，还是一组视觉模块。
+> Would you like me to improve the whole README or only create SVG decorations? If SVG-only, tell me whether you need a hero, section headers, workflow, badge, or a coordinated visual set.
 
 Read-only inspection is allowed before the answer when it helps understand the repository. Do not interpret “use this Skill,” a repository path, or “beautify it” as permission to modify the whole README. Once the user chooses SVG-only mode, expanding into README edits requires new authorization.
 
@@ -146,9 +146,9 @@ Use $beautify-github-readme to redesign this repository homepage around its deve
 ```
 
 ```text
-用 $beautify-github-readme 只生成一张 SVG 首图和三张章节标题，不要修改 README。
+Use $beautify-github-readme to create one SVG hero and three section headers without modifying the README.
 ```
 
 ```text
-用 $beautify-github-readme 美化这个仓库；如果范围不清楚，先问我是整份优化还是只做 SVG。
+Use $beautify-github-readme to beautify this repository; if the scope is unclear, ask whether I want a whole-README redesign or SVG-only assets.
 ```

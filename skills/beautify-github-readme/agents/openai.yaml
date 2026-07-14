@@ -1,4 +1,4 @@
 interface:
   display_name: "Beautify GitHub README"
-  short_description: "支持整份 README 优化或单独生成 SVG 装饰，先确认范围再执行"
+  short_description: "Improve whole READMEs or create standalone SVG assets"
   default_prompt: "Use $beautify-github-readme to improve the whole README or create standalone SVG decorations; ask which scope I want if it is unclear."
