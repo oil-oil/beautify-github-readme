@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">Send the repository to your Agent</title><desc id="desc">Section three: share a repository path or URL with the Agent to get started.</desc>
+  <rect width="1200" height="150" rx="22" fill="#63D3BE"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"><text x="54" y="34" fill="#245B54" font-size="15" font-weight="720" letter-spacing="2.6">03 · START HERE</text><rect x="54" y="50" width="50" height="5" rx="3" fill="#FF7458"/><text x="54" y="112" fill="#12312E" font-size="43" font-weight="780">Send the repository to your Agent</text><text x="1080" y="112" fill="#12312E" fill-opacity=".14" font-size="76" font-weight="820">03</text><circle cx="1038" cy="106" r="7" fill="#6A62D9"/></g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Understand the project before designing the README</title><desc id="desc">Understand the project, set the direction, structure the content, build the visuals, and review the preview.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8E5FF"/><stop offset="1" stop-color="#F5F1E9"/></linearGradient></defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="54" y="58" fill="#4E4A7B" font-size="16" font-weight="740" letter-spacing="2">FROM FACTS TO FIRST IMPRESSION</text>
+    <text x="54" y="104" fill="#23213B" font-size="34" font-weight="780">Understand the project before designing the README</text>
+    <path d="M116 238C262 122 376 314 526 208S790 298 936 193s176 14 206 46" fill="none" stroke="#6A62D9" stroke-opacity=".28" stroke-width="4" stroke-dasharray="8 10"/>
+    <g>
+      <g transform="translate(64 190)"><circle cx="48" cy="48" r="48" fill="#121827"/><text x="48" y="42" text-anchor="middle" fill="#63D3BE" font-size="14" font-weight="760">01</text><text x="48" y="64" text-anchor="middle" fill="#F7F2E8" font-size="13" font-weight="720">PROJECT</text></g>
+      <g transform="translate(286 146)"><circle cx="48" cy="48" r="48" fill="#63D3BE"/><text x="48" y="42" text-anchor="middle" fill="#173A31" font-size="14" font-weight="760">02</text><text x="48" y="64" text-anchor="middle" fill="#173A31" font-size="13" font-weight="720">DIRECTION</text></g>
+      <g transform="translate(508 204)"><circle cx="48" cy="48" r="48" fill="#FF7458"/><text x="48" y="42" text-anchor="middle" fill="#401E18" font-size="14" font-weight="760">03</text><text x="48" y="64" text-anchor="middle" fill="#401E18" font-size="13" font-weight="720">STRUCTURE</text></g>
+      <g transform="translate(730 157)"><circle cx="48" cy="48" r="48" fill="#6A62D9"/><text x="48" y="42" text-anchor="middle" fill="#F7F2E8" font-size="14" font-weight="760">04</text><text x="48" y="64" text-anchor="middle" fill="#F7F2E8" font-size="13" font-weight="720">VISUALS</text></g>
+      <g transform="translate(952 190)"><circle cx="48" cy="48" r="48" fill="#F7F2E8" stroke="#D5D0EE" stroke-width="2"/><text x="48" y="42" text-anchor="middle" fill="#6A62D9" font-size="14" font-weight="760">05</text><text x="48" y="64" text-anchor="middle" fill="#23213B" font-size="13" font-weight="720">PREVIEW</text></g>
+    </g>
+  </g>
+</svg>

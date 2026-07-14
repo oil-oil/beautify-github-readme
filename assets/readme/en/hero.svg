@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Beautify GitHub README</title>
+  <desc id="desc">Help visitors understand the project at first glance.</desc>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#F7F2E8" stroke-opacity=".055"/>
+    </pattern>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#74E0C1"/><stop offset="1" stop-color="#43B9B0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="390" rx="32" fill="#121827"/>
+  <rect width="1200" height="390" rx="32" fill="url(#grid)"/>
+  <circle cx="1107" cy="56" r="112" fill="#FF7458" fill-opacity=".08"/>
+  <circle cx="1048" cy="340" r="138" fill="#63D3BE" fill-opacity=".06"/>
+
+  <g transform="translate(68 48)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="0" y="16" fill="#A9B1C2" font-size="17" font-weight="700" letter-spacing="3">REPOSITORY · FIRST IMPRESSION</text>
+    <rect x="0" y="34" width="56" height="6" rx="3" fill="#FF7458"/>
+    <text x="0" y="132" fill="#F7F2E8" font-size="76" font-weight="780" letter-spacing="-3">beautify</text>
+    <text x="0" y="206" fill="#F7F2E8" font-size="70" font-weight="760" letter-spacing="-3">github readme</text>
+    <rect x="0" y="224" width="310" height="18" rx="4" fill="#63D3BE" fill-opacity=".82"/>
+    <text x="0" y="278" fill="#D6DCE7" font-size="24" font-weight="520">Make the project clear at first glance.</text>
+    <text x="0" y="322" fill="#7F8A9F" font-size="15" font-weight="650" letter-spacing="1.7">READ THE PROJECT · DESIGN THE PAGE · CHECK THE RESULT</text>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <g transform="translate(790 46) rotate(5 145 92)">
+      <rect x="8" y="10" width="292" height="184" rx="20" fill="#080D17" fill-opacity=".38"/>
+      <rect width="292" height="184" rx="20" fill="#F7F2E8"/>
+      <rect x="22" y="22" width="56" height="8" rx="4" fill="#FF7458"/>
+      <text x="22" y="58" fill="#121827" font-size="18" font-weight="760">DEV TOOL</text>
+      <rect x="22" y="78" width="248" height="82" rx="12" fill="#182334"/>
+      <circle cx="40" cy="95" r="3" fill="#63D3BE"/>
+      <path d="M54 95h84M40 116h145M40 137h105" stroke="#AFC3C7" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+    </g>
+    <g transform="translate(706 176) rotate(-6 145 82)">
+      <rect x="8" y="10" width="292" height="164" rx="20" fill="#080D17" fill-opacity=".4"/>
+      <rect width="292" height="164" rx="20" fill="url(#mint)"/>
+      <text x="22" y="42" fill="#10313A" font-size="16" font-weight="760">DESIGN SYSTEM</text>
+      <g transform="translate(26 65)">
+        <rect width="52" height="52" rx="14" fill="#F7F2E8"/><circle cx="26" cy="26" r="10" fill="#FF7458"/>
+        <rect x="68" width="52" height="52" rx="14" fill="#121827"/><path d="M82 26h24" stroke="#F7F2E8" stroke-width="6" stroke-linecap="round"/>
+        <rect x="136" width="52" height="52" rx="14" fill="#F7F2E8"/><path d="M150 37l12-22 12 22z" fill="#6A62D9"/>
+        <rect x="204" width="52" height="52" rx="14" fill="#FF7458"/><circle cx="230" cy="26" r="9" fill="#121827"/>
+      </g>
+    </g>
+    <g transform="translate(898 235) rotate(7 122 66)">
+      <rect x="7" y="9" width="244" height="132" rx="18" fill="#080D17" fill-opacity=".4"/>
+      <rect width="244" height="132" rx="18" fill="#6A62D9"/>
+      <text x="20" y="40" fill="#F7F2E8" font-size="15" font-weight="760">AI PRODUCT</text>
+      <circle cx="54" cy="86" r="15" fill="#63D3BE"/><circle cx="122" cy="74" r="12" fill="#FF7458"/><circle cx="190" cy="92" r="15" fill="#F7F2E8"/>
+      <path d="M68 83l41-7M134 77l42 11" stroke="#F7F2E8" stroke-width="3" opacity=".7"/>
+    </g>
+  </g>
+</svg>
