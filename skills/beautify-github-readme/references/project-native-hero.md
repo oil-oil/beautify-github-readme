@@ -50,6 +50,33 @@ Use type to express how the project speaks. Do not use serif merely to look prem
 
 Do not force every repository into a left-title/right-graphic split. Choose the mode after seeing the material.
 
+## Choose how identity and proof meet
+
+Two successful openings are both valid. Choose between them by testing proof legibility, not by applying one house template:
+
+### One-board hero
+
+Combine the category, project name, plain-language promise, project-native motif, and a few real outputs in one composed PNG/WebP. This works when the outputs stay recognizable at README width and the variety itself explains the product. A UI-generation repository, for example, can place several real interface results around the title so the first image communicates both identity and capability.
+
+### Title followed by proof
+
+Use a concise SVG title first, then place a large screenshot wall or showcase immediately below it. This works when the proof contains many pages, dense screenshots, or fine detail that would become too small inside a short hero. A presentation repository, for example, can let the SVG establish the product name and method, while the next image gives the slide outputs enough room to be judged.
+
+Both openings should preserve the same information functions:
+
+```text
+context → project name → concrete promise → process cue → real proof
+```
+
+These are roles, not fixed positions. Do not copy the same eyebrow, highlight bar, grid, left/right split, or metadata row across repositories. Reuse the reasoning and redesign the composition from the project's material.
+
+Ask these before deciding:
+
+1. Can the proof still be understood when the image is scaled to GitHub content width?
+2. Does one artifact explain the product, or does the visitor need to compare several outputs?
+3. Is the title likely to change often enough that an editable SVG should stay separate?
+4. Would combining title and proof reduce clarity, or merely save vertical space?
+
 ## Combine title and demonstration
 
 When the first screenshot, output, or diagram explains the project, combine it with the title into one composition:
@@ -58,7 +85,7 @@ When the first screenshot, output, or diagram explains the project, combine it w
 category + repository name + concrete description + real proof
 ```
 
-For vector material, keep the whole composition in SVG. For screenshots, photos, or generated raster work, compose the title and images in a layout tool or HTML canvas and export one PNG/WebP. Do not rely on fragile external image links inside SVG.
+For vector material, keep the whole composition in SVG. For screenshots, photos, or generated raster work, compose the title and images in a layout tool or HTML canvas and export one PNG/WebP. If many artifacts need more room, keep the SVG title and raster proof as two adjacent README modules. Do not rely on fragile external image links inside SVG.
 
 ## Use project-specific tests
 

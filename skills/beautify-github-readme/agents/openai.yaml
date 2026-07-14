@@ -1,4 +1,4 @@
 interface:
   display_name: "Beautify GitHub README"
-  short_description: "按仓库主题设计清晰、有辨识度的 GitHub README"
-  default_prompt: "Use $beautify-github-readme to redesign this repository homepage around its real theme and content."
+  short_description: "支持整份 README 优化或单独生成 SVG 装饰，先确认范围再执行"
+  default_prompt: "Use $beautify-github-readme to improve the whole README or create standalone SVG decorations; ask which scope I want if it is unclear."
