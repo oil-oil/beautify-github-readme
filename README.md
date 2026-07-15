@@ -21,6 +21,8 @@ These are not hypothetical templates. The method is already used by four public 
 - **[oil-icon](https://github.com/oil-oil/oil-icon)** — uses real icon sets to explain style locking, batch generation, slicing, and transparent delivery.
 - **[Selector](https://github.com/oil-oil/selector)** — puts page selection, structured context, and real output directly into the opening screen and examples.
 
+If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
+
 Below are four independent hero directions. They do not share one house style; each derives its typography, color, composition, and proof from the project itself.
 
 <p align="center">

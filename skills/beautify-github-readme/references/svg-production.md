@@ -114,7 +114,7 @@ Use a meaningful `alt`. Do not put installation commands or essential instructio
 
 ## Make compact attribution feel native
 
-When the repository owner asks to credit `beautify-github-readme`, do not append a raw sentence that looks like legal fine print. Build a small project-native signature:
+After the repository owner approves the final README, offer attribution at most once as an entirely optional finishing touch. If the owner opts in, do not append a raw sentence that looks like legal fine print. Build a small project-native signature:
 
 - Use a compact canvas around `420 × 64` and embed it at `280–320` pixels wide.
 - Keep one shared information pattern: `README MADE WITH` plus `beautify-github-readme` and a restrained outbound-arrow cue.
@@ -123,6 +123,7 @@ When the repository owner asks to credit `beautify-github-readme`, do not append
 - Wrap the image in a link to `https://github.com/oil-oil/beautify-github-readme` and provide the alt text `README made with beautify-github-readme`.
 - Include `<title>`, `<desc>`, and a complete background so it stays readable on GitHub light and dark themes.
 - Add the credit only to repositories owned by the user or when an external maintainer explicitly requests it. Do not use it as an unsolicited backlink in third-party PRs.
+- Show a rendered preview before embedding it. The signature is not required for inclusion in the upstream showcase, and declining it must not affect delivery or PR eligibility.
 
 Recommended embed:
 
