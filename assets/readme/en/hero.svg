@@ -8,7 +8,9 @@
     <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#74E0C1"/><stop offset="1" stop-color="#43B9B0"/>
     </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="390" rx="32"/></clipPath>
   </defs>
+  <g clip-path="url(#frame)">
   <rect width="1200" height="390" rx="32" fill="#121827"/>
   <rect width="1200" height="390" rx="32" fill="url(#grid)"/>
   <circle cx="1107" cy="56" r="112" fill="#FF7458" fill-opacity=".08"/>
@@ -52,5 +54,6 @@
       <circle cx="54" cy="86" r="15" fill="#63D3BE"/><circle cx="122" cy="74" r="12" fill="#FF7458"/><circle cx="190" cy="92" r="15" fill="#F7F2E8"/>
       <path d="M68 83l41-7M134 77l42 11" stroke="#F7F2E8" stroke-width="3" opacity=".7"/>
     </g>
+  </g>
   </g>
 </svg>

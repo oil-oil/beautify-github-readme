@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -14,7 +16,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageChops
 except ImportError as exc:  # pragma: no cover - dependency error path
     raise SystemExit("Pillow is required: python3 -m pip install Pillow") from exc
 
@@ -51,12 +53,15 @@ def load_spec(path: Path) -> dict:
         fail(f"invalid motion spec JSON: {exc}")
 
     defaults = {
-        "width": 960,
+        "width": 1200,
         "fps": 30,
         "duration": 5.0,
         "colors": 192,
         "dither": "none",
-        "max_size_mb": 5.0,
+        "transparent_color": "#ff00ff",
+        "alpha_threshold": 128,
+        "clip_to_base_alpha": False,
+        "max_size_mb": 2.0,
         "reveals": [],
         "layers": [],
     }
@@ -73,6 +78,11 @@ def validate_spec(spec: dict) -> None:
         fail("width must be positive")
     if not 2 <= int(spec["colors"]) <= 256:
         fail("colors must be between 2 and 256")
+    if not 0 <= int(spec["alpha_threshold"]) <= 255:
+        fail("alpha_threshold must be between 0 and 255")
+    parse_hex_color(spec["transparent_color"])
+    if not isinstance(spec["clip_to_base_alpha"], bool):
+        fail("clip_to_base_alpha must be true or false")
     allowed_dither = {
         "none",
         "bayer",
@@ -99,6 +109,12 @@ def command_path(name: str) -> str:
     if not path:
         fail(f"required command not found: {name}")
     return path
+
+
+def parse_hex_color(value: str) -> tuple[int, int, int]:
+    if not isinstance(value, str) or not re.fullmatch(r"#[0-9a-fA-F]{6}", value):
+        fail("transparent_color must use #RRGGBB format")
+    return tuple(int(value[index : index + 2], 16) for index in (1, 3, 5))
 
 
 def choose_renderer() -> tuple[str, str]:
@@ -201,12 +217,40 @@ def motion_progress(time: float, block: dict, easing: str) -> float:
     return ease_out_cubic(value) if easing == "enter" else smoothstep(value)
 
 
+def flatten_to_chroma(
+    image: Image.Image, key: tuple[int, int, int], alpha_threshold: int
+) -> Image.Image:
+    """Flatten RGBA onto a reserved key color for compact GIF delta encoding."""
+    mask = image.getchannel("A").point(
+        lambda alpha: 255 if alpha >= alpha_threshold else 0
+    )
+    flattened = Image.new("RGB", image.size, key)
+    flattened.paste(image.convert("RGB"), mask=mask)
+    return flattened
+
+
+def uses_visible_color(
+    image: Image.Image,
+    color: tuple[int, int, int],
+    alpha_threshold: int,
+) -> bool:
+    red, green, blue, alpha = image.split()
+
+    def matching(channel: Image.Image, value: int) -> Image.Image:
+        return channel.point(lambda pixel: 255 if pixel == value else 0)
+
+    match = ImageChops.multiply(matching(red, color[0]), matching(green, color[1]))
+    match = ImageChops.multiply(match, matching(blue, color[2]))
+    visible = alpha.point(lambda value: 255 if value >= alpha_threshold else 0)
+    return ImageChops.multiply(match, visible).getbbox() is not None
+
+
 def build_frames(
     root: ET.Element,
     spec: dict,
     renderer: tuple[str, str],
     workspace: Path,
-) -> tuple[Path, int, int, int]:
+) -> tuple[Path, int, int, int, bool]:
     moving_ids = {
         item["id"] for item in [*spec["reveals"], *spec["layers"]]
     }
@@ -243,6 +287,16 @@ def build_frames(
     frame_count = round(float(spec["duration"]) * fps)
     frames_dir = workspace / "frames"
     frames_dir.mkdir()
+    transparent_color = parse_hex_color(spec["transparent_color"])
+    alpha_threshold = int(spec["alpha_threshold"])
+    for label, image in [("base", base), *sorted(rendered.items())]:
+        if uses_visible_color(image, transparent_color, alpha_threshold):
+            fail(
+                f"{label} visibly uses transparent_color "
+                f"{spec['transparent_color']}; choose an unused key color"
+            )
+    alpha_signature: bytes | None = None
+    has_transparency = False
 
     for frame in range(frame_count):
         time = frame / fps
@@ -288,13 +342,152 @@ def build_frames(
             layer = opacity_layer(rendered[item["id"]], opacity)
             canvas.alpha_composite(layer, (round(dx), round(dy)))
 
-        canvas.convert("RGB").save(frames_dir / f"frame-{frame:04d}.png")
+        if spec["clip_to_base_alpha"]:
+            canvas.putalpha(base.getchannel("A"))
 
-    return frames_dir, frame_count, output_width, output_height
+        alpha_mask = canvas.getchannel("A").point(
+            lambda alpha: 255 if alpha >= alpha_threshold else 0
+        )
+        signature = hashlib.sha256(alpha_mask.tobytes()).digest()
+        if alpha_signature is None:
+            alpha_signature = signature
+        elif signature != alpha_signature:
+            fail(
+                "GIF transparency silhouette changes across frames; place motion "
+                "inside a stable background or enable clip_to_base_alpha"
+            )
+        has_transparency |= alpha_mask.getextrema()[0] == 0
+
+        frame_image = flatten_to_chroma(
+            canvas, transparent_color, alpha_threshold
+        )
+        frame_image.save(frames_dir / f"frame-{frame:04d}.png")
+
+    return frames_dir, frame_count, output_width, output_height, has_transparency
+
+
+def mark_key_color_transparent(
+    output: Path,
+    key: tuple[int, int, int],
+    expected_frames: int,
+) -> None:
+    """Mark the reserved palette entry transparent in every GIF frame."""
+    with Image.open(output) as image:
+        palette = image.getpalette()
+        if image.mode != "P" or not palette:
+            fail("encoded GIF does not contain an indexed global palette")
+        key_indices = [
+            index
+            for index in range(len(palette) // 3)
+            if tuple(palette[index * 3 : index * 3 + 3]) == key
+        ]
+        if not key_indices:
+            fail("transparent key color was not preserved in the GIF palette")
+        key_index = key_indices[0]
+        key_mask = image.point(
+            [255 if index == key_index else 0 for index in range(256)],
+            mode="L",
+        )
+        bounds = key_mask.getbbox()
+        if not bounds:
+            fail("transparent key color is not used by the first GIF frame")
+        probe: tuple[int, int] | None = None
+        for y in range(bounds[1], bounds[3]):
+            for x in range(bounds[0], bounds[2]):
+                if image.getpixel((x, y)) == key_index:
+                    probe = (x, y)
+                    break
+            if probe:
+                break
+        if probe is None:
+            fail("could not locate a transparent GIF pixel")
+
+    data = bytearray(output.read_bytes())
+    positions, image_count = gif_control_blocks(data)
+    if image_count != expected_frames or len(positions) != expected_frames:
+        fail(
+            "could not identify every GIF frame control block: "
+            f"expected {expected_frames}, found {image_count} images and "
+            f"{len(positions)} controls"
+        )
+
+    for position in positions:
+        data[position + 3] |= 0x01
+        data[position + 6] = key_index
+    output.write_bytes(data)
+
+    with Image.open(output) as image:
+        if image.info.get("transparency") != key_index:
+            fail("GIF transparency metadata could not be verified")
+        checkpoints = {0, expected_frames // 2, expected_frames - 1}
+        for frame in sorted(checkpoints):
+            image.seek(frame)
+            if image.convert("RGBA").getpixel(probe)[3] != 0:
+                fail(f"GIF transparency is missing at frame {frame}")
+
+
+def gif_control_blocks(data: bytearray) -> tuple[list[int], int]:
+    """Parse a GIF stream and return real GCE offsets, ignoring image data bytes."""
+    if data[:6] not in (b"GIF87a", b"GIF89a") or len(data) < 13:
+        fail("encoded output is not a valid GIF stream")
+
+    packed = data[10]
+    cursor = 13
+    if packed & 0x80:
+        cursor += 3 * (2 ** ((packed & 0x07) + 1))
+
+    controls: list[int] = []
+    image_count = 0
+
+    def skip_sub_blocks(position: int) -> int:
+        while True:
+            if position >= len(data):
+                fail("truncated GIF sub-block")
+            size = data[position]
+            position += 1
+            if size == 0:
+                return position
+            position += size
+            if position > len(data):
+                fail("truncated GIF sub-block payload")
+
+    while cursor < len(data):
+        marker = data[cursor]
+        if marker == 0x3B:
+            return controls, image_count
+        if marker == 0x21:
+            if cursor + 2 >= len(data):
+                fail("truncated GIF extension")
+            if data[cursor + 1] == 0xF9:
+                if data[cursor + 2] != 0x04 or cursor + 7 >= len(data):
+                    fail("invalid GIF graphics control extension")
+                controls.append(cursor)
+            cursor = skip_sub_blocks(cursor + 2)
+            continue
+        if marker == 0x2C:
+            if cursor + 9 >= len(data):
+                fail("truncated GIF image descriptor")
+            image_count += 1
+            image_packed = data[cursor + 9]
+            cursor += 10
+            if image_packed & 0x80:
+                cursor += 3 * (2 ** ((image_packed & 0x07) + 1))
+            if cursor >= len(data):
+                fail("truncated GIF image data")
+            cursor = skip_sub_blocks(cursor + 1)
+            continue
+        fail(f"unexpected GIF block marker: 0x{marker:02x}")
+
+    fail("GIF trailer not found")
 
 
 def encode_gif(
-    frames_dir: Path, output: Path, spec: dict, ffmpeg: str
+    frames_dir: Path,
+    output: Path,
+    spec: dict,
+    ffmpeg: str,
+    frame_count: int,
+    has_transparency: bool,
 ) -> None:
     palette = frames_dir.parent / "palette.png"
     fps = int(spec["fps"])
@@ -308,7 +501,7 @@ def encode_gif(
             "-i",
             str(input_pattern),
             "-vf",
-            f"palettegen=stats_mode=diff:max_colors={int(spec['colors'])}",
+            f"palettegen=stats_mode=diff:max_colors={int(spec['colors'])}:reserve_transparent=0",
             str(palette),
         ],
         check=True,
@@ -327,6 +520,8 @@ def encode_gif(
             str(palette),
             "-lavfi",
             f"paletteuse=dither={spec['dither']}:diff_mode=rectangle",
+            "-gifflags",
+            "+offsetting-transdiff",
             "-loop",
             "0",
             str(output),
@@ -335,6 +530,12 @@ def encode_gif(
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
+    if has_transparency:
+        mark_key_color_transparent(
+            output,
+            parse_hex_color(spec["transparent_color"]),
+            frame_count,
+        )
 
 
 def run(args: argparse.Namespace) -> None:
@@ -365,11 +566,18 @@ def run(args: argparse.Namespace) -> None:
         workspace = Path(temporary.name)
 
     try:
-        frames_dir, frame_count, width, height = build_frames(
+        frames_dir, frame_count, width, height, has_transparency = build_frames(
             root, spec, renderer, workspace
         )
         output_gif.parent.mkdir(parents=True, exist_ok=True)
-        encode_gif(frames_dir, output_gif, spec, ffmpeg)
+        encode_gif(
+            frames_dir,
+            output_gif,
+            spec,
+            ffmpeg,
+            frame_count,
+            has_transparency,
+        )
     finally:
         if temporary:
             temporary.cleanup()

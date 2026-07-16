@@ -1,10 +1,11 @@
 {
-  "width": 960,
+  "width": 1200,
   "fps": 30,
   "duration": 5.0,
-  "colors": 192,
+  "colors": 256,
   "dither": "none",
-  "max_size_mb": 5.0,
+  "clip_to_base_alpha": true,
+  "max_size_mb": 2.0,
   "reveals": [
     {
       "id": "title-highlight",

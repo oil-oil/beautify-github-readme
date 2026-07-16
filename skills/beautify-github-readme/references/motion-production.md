@@ -25,7 +25,8 @@ If the user declines or does not answer, continue with static SVG only.
 ## Motion defaults
 
 - Start from an approved static SVG. Motion should clarify it, not rescue a weak composition.
-- Use `30 FPS`, `4–6 seconds`, a `960px` output width, and a calm loop as starting points.
+- Use `30 FPS`, `4–6 seconds`, and a calm loop as starting points.
+- Size raster output for the real embed. Start at the SVG's native canvas width—usually `1200px` for this Skill—and preview it at GitHub's actual content width before increasing resolution. Native-size rendering avoids resampling noise and can be much smaller while looking indistinguishable after browser downscaling. Use `1440–1600px` only when small text genuinely needs it and the loading cost remains acceptable; use `960px` for smaller embeds or previews.
 - Keep the first frame meaningful and preserve essential text in Markdown or the static fallback.
 - Animate a few semantic layers. Avoid moving grids, noise, gradients, or the whole canvas because full-frame changes inflate the GIF.
 - Use ease-out entry, a genuinely still hold, and a short exit that returns cleanly to the first frame.
@@ -40,12 +41,13 @@ Create a JSON spec next to the SVG:
 
 ```json
 {
-  "width": 960,
+  "width": 1200,
   "fps": 30,
   "duration": 5.0,
-  "colors": 192,
+  "colors": 256,
   "dither": "none",
-  "max_size_mb": 5.0,
+  "clip_to_base_alpha": true,
+  "max_size_mb": 2.0,
   "reveals": [
     {
       "id": "title-highlight",
@@ -66,6 +68,7 @@ Create a JSON spec next to the SVG:
 ```
 
 Offsets use source-SVG units and scale with the requested output width.
+Use `clip_to_base_alpha: true` when moving layers must stay inside a rounded full-frame background. Leave it off for assets whose base layer contains intentional transparent holes.
 
 ## Render the GIF
 
@@ -83,11 +86,14 @@ Use `--keep-frames /tmp/readme-motion-frames` only when individual layers or fra
 ## Keep flat animation compact
 
 - Use one shared palette and `diff_mode=rectangle` so frames store only changed regions.
-- Start with `192` colors for flat SVG artwork.
+- Prefer the SVG's native pixel width or a clean integer scale. Arbitrary upscaling introduces interpolation colors that increase GIF size without necessarily improving the README-sized result. Compare candidates at the final CSS width, not at 100% pixels.
+- Start with `192` colors for simple flat artwork. Use the full `256` colors when the composition contains prominent text, gradients, translucent shapes, or is displayed full-width.
 - Use `dither: none` for large flat fills, text, and interface geometry. Dithering adds moving pixel noise, makes the image dirtier, and increases file size.
 - Add dithering only for gradients or photographic material after comparing the rendered result.
 - Keep settled frames identical. A still hold compresses well and feels calmer.
-- Prefer a `5 MB` working budget even when the hosting limit is larger.
+- Preserve transparent corners in the final GIF. For rounded artwork, clip every visual layer to the same rounded frame; otherwise square corners or escaped decoration will appear on GitHub. The bundled script converts frame alpha to a reserved chroma key for compact RGB delta encoding, then marks that palette entry transparent in the GIF. If the artwork visibly uses the configured `transparent_color`, the script stops and asks for a different unused key instead of silently creating holes.
+- Keep the transparent silhouette stable across the loop. Put moving layers inside an opaque or clipped frame; changing transparent boundaries can leave trails in GIF decoders, so the bundled script rejects them.
+- Aim for about `2 MB` for a full-width animated hero and treat `5 MB` as a practical ceiling, even when the hosting limit is larger. If the animation cannot stay light, keep the first-screen hero static and place a smaller GIF demonstration later in the README.
 
 ## Verify before embedding
 
