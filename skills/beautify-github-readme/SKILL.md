@@ -103,7 +103,7 @@ Read [references/github-readme-canvas.md](references/github-readme-canvas.md) an
 - Use SVG for the hero, section banners, diagrams, and deterministic design modules.
 - Use PNG/WebP for screenshots, generated art, photo material, and complex compositing. Use GIF only for approved motion that must play directly on GitHub.
 - Keep body copy, commands, tables, links, and details in Markdown.
-- Prefer a `1200`-wide SVG `viewBox`, `width="100%"` embeds, system fonts, semantic alt text, and rounded containers.
+- Prefer a `1200`-unit-wide SVG `viewBox`, `width="100%"` embeds, system fonts, semantic alt text, and rounded containers. Treat the `viewBox` as a coordinate system, not the final pixel width: size and preview full-width assets at a conservative `900` CSS-pixel GitHub render. At that width, keep essential diagram text at least `20` SVG units and supporting labels at least `18`; text below that range must be nonessential. If a `360`-pixel mobile preview makes required labels unreadable, reduce density, split the visual, or move the detail into Markdown.
 - Use one reusable component grammar, but vary the art direction by repository theme.
 - When a showcase contains several artifacts, arrange them with controlled scale, overlap, rotation, and whitespace; keep reading order obvious.
 - Let the hero absorb a real project diagram, screenshot, code fragment, output, specimen, or artifact when it makes the first screen more useful. Do not separate the title and proof by habit.

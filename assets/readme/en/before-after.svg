@@ -22,7 +22,7 @@
       <rect x="28" y="174" width="450" height="116" rx="15" fill="#F5F1E9"/>
       <rect x="46" y="194" width="128" height="76" rx="12" fill="#63D3BE"/><circle cx="110" cy="232" r="18" fill="#121827"/>
       <path d="M196 207h190M196 230h244M196 253h172" stroke="#B8BBC1" stroke-width="8" stroke-linecap="round"/>
-      <g transform="translate(28 316)" font-size="13" font-weight="750"><rect width="138" height="44" rx="22" fill="#FF7458"/><text x="31" y="28" fill="#251A19">SEE PROOF</text><rect x="150" width="138" height="44" rx="22" fill="#252F42"/><text x="164" y="28" fill="#D6DCE7">HOW IT WORKS</text><rect x="300" width="150" height="44" rx="22" fill="#6A62D9"/><text x="326" y="28" fill="#F7F2E8">GET STARTED</text></g>
+      <g transform="translate(28 316)" font-size="20" font-weight="750"><rect width="138" height="44" rx="22" fill="#FF7458"/><text x="40" y="29" fill="#251A19">PROOF</text><rect x="150" width="138" height="44" rx="22" fill="#252F42"/><text x="178" y="29" fill="#D6DCE7">METHOD</text><rect x="300" width="150" height="44" rx="22" fill="#6A62D9"/><text x="345" y="29" fill="#F7F2E8">START</text></g>
       <text x="28" y="388" fill="#8F9AAF" font-size="14">VALUE → PROOF → METHOD → FIRST USE</text>
     </g>
   </g>

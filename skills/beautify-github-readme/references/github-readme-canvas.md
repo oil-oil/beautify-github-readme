@@ -20,7 +20,7 @@ Recommended image embed:
 - Typical heights: hero `300–420`, section banner `120–170`, visual explainer `320–760`.
 - Include `<title>` and `<desc>` for major visual modules.
 - Use system font families such as `-apple-system`, `BlinkMacSystemFont`, `Segoe UI`, `PingFang SC`, and `sans-serif`.
-- Keep essential text at least `16` SVG units and section titles at least `36`.
+- Judge type at its rendered size, not only by the number in the SVG. Use `900` CSS pixels as a conservative desktop acceptance width for a full-width `1200`-unit asset: essential diagram text should be at least `20` SVG units (about `15px` rendered), supporting labels at least `18` (about `13.5px`), and section titles at least `40` (about `30px`). Text below `18` units may be used only for nonessential metadata or decoration.
 - Use `rx` consistently and keep all important content away from edges.
 
 ## Avoid fragile SVG features
@@ -38,7 +38,7 @@ Use paths, shapes, text, patterns, gradients, clipping paths, and simple transfo
 
 ## Responsive behavior
 
-GitHub scales the whole image. Small text and dense diagrams become unreadable on mobile. When the body copy matters, keep it in Markdown rather than inside SVG.
+GitHub scales the whole image. Preview full-width assets at both `900px` desktop and `360px` mobile widths. Small text and dense diagrams become unreadable on mobile; if required labels fail there, simplify or split the visual and keep the complete explanation in Markdown.
 
 Avoid multi-column Markdown tables for long prose. They collapse poorly on narrow screens. Full-width visual boards can contain columns because the composition scales as one image, but text inside them must remain large.
 

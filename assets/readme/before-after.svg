@@ -22,7 +22,7 @@
       <rect x="28" y="174" width="450" height="116" rx="15" fill="#F5F1E9"/>
       <rect x="46" y="194" width="128" height="76" rx="12" fill="#63D3BE"/><circle cx="110" cy="232" r="18" fill="#121827"/>
       <path d="M196 207h190M196 230h244M196 253h172" stroke="#B8BBC1" stroke-width="8" stroke-linecap="round"/>
-      <g transform="translate(28 316)"><rect width="138" height="44" rx="22" fill="#FF7458"/><text x="37" y="29" fill="#251A19" font-size="16" font-weight="750">看效果</text><rect x="150" width="138" height="44" rx="22" fill="#252F42"/><text x="175" y="29" fill="#D6DCE7" font-size="16" font-weight="650">了解方法</text><rect x="300" width="150" height="44" rx="22" fill="#6A62D9"/><text x="328" y="29" fill="#F7F2E8" font-size="16" font-weight="700">开始使用</text></g>
+      <g transform="translate(28 316)"><rect width="138" height="44" rx="22" fill="#FF7458"/><text x="37" y="29" fill="#251A19" font-size="20" font-weight="750">看效果</text><rect x="150" width="138" height="44" rx="22" fill="#252F42"/><text x="175" y="29" fill="#D6DCE7" font-size="20" font-weight="650">了解方法</text><rect x="300" width="150" height="44" rx="22" fill="#6A62D9"/><text x="328" y="29" fill="#F7F2E8" font-size="20" font-weight="700">开始使用</text></g>
       <text x="28" y="388" fill="#8F9AAF" font-size="14">用途 → 示例 → 原理 → 使用</text>
     </g>
   </g>
