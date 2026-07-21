@@ -14,7 +14,7 @@
   <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="Real repositories already using beautify-github-readme.">
 </p>
 
-These are not hypothetical templates. The method is already used by six public repositories, each with its own visual language and content structure:
+These are not hypothetical templates. The method is already used by seven public repositories, each with its own visual language and content structure:
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — presents the method, results, and first-use path for programmatic slide creation in one visual system.
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** — uses real UI outputs to explain the path from a brief and reference images to HTML/CSS reconstruction.
@@ -22,6 +22,7 @@ These are not hypothetical templates. The method is already used by six public r
 - **[Selector](https://github.com/oil-oil/selector)** — puts page selection, structured context, and real output directly into the opening screen and examples.
 - **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — uses a character-driven team map to explain how one main Codex thread delegates exploration, bounded implementation, and independent review to four custom agents.
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard.
+- **[Ainews-to-Feishu](https://github.com/Ai-luren/Ainews-to-Feishu)** — aggregates three AI news sources, routes and deduplicates updates, and delivers real news cards to Feishu on a timed workflow.
 
 If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
 

@@ -14,7 +14,7 @@
   <img src="./assets/readme/section-used-by.svg" width="100%" alt="这些 README 已经在使用 beautify-github-readme。">
 </p>
 
-这不是一组假想模板。下面六个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
+这不是一组假想模板。下面七个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** · 把程序化 PPT 的方法、效果和使用路径放在同一套视觉系统里。
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** · 用真实 UI 设计稿解释从需求、参考图到 HTML/CSS 还原的过程。
@@ -22,6 +22,7 @@
 - **[Selector](https://github.com/oil-oil/selector)** · 把网页选取、结构化上下文和实际输出直接放进首屏与示例。
 - **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** · 用角色化团队图说明 Codex 主线程如何把代码探索、边界明确的实现和独立复审分给四个自定义 Agent。
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** · 用项目原生 SVG 标题和真实仪表盘截图，展示一个自托管车辆遥测仪表盘。
+- **[Ainews-to-Feishu](https://github.com/Ai-luren/Ainews-to-Feishu)** · 聚合三路 AI 资讯，按时段路由、去重与容错后，把真实内容整理成飞书卡片并定时推送。
 
 如果这个 Skill 帮你做出了一份愿意公开分享的 README，欢迎通过 PR 申请加入这个列表。完全自愿：是否使用页尾脚标签名不影响申请，展示内容仍会经过维护者审核。
 
