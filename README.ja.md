@@ -14,7 +14,7 @@
   <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="すでに beautify-github-readme を利用している実在のリポジトリ。">
 </p>
 
-これらは架空のテンプレートではありません。この手法はすでに 6 つの公開リポジトリで使われており、それぞれが独自のビジュアル言語とコンテンツ構成を備えています。
+これらは架空のテンプレートではありません。この手法はすでに 7 つの公開リポジトリで使われており、それぞれが独自のビジュアル言語とコンテンツ構成を備えています。
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — プログラムによるスライド作成の手法、成果、最初の利用手順を、一つのビジュアルシステムで提示します。
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** — 実際の UI 出力を使い、要件と参照画像から HTML/CSS を再構築するまでの流れを説明します。
@@ -22,6 +22,7 @@
 - **[Selector](https://github.com/oil-oil/selector)** — ページ選択、構造化されたコンテキスト、実際の出力を、冒頭画面と例に直接配置します。
 - **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — キャラクターを使ったチームマップにより、一つの Codex メインスレッドが探索、範囲を限定した実装、独立レビューを 4 つのカスタムエージェントへ委任する方法を説明します。
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — OBD-II PID データを使ったプロジェクト固有の SVG ヒーローと実際のダッシュボード画面により、セルフホスト型の車両テレメトリーダッシュボードを紹介します。
+- **[Dubbing-room](https://github.com/Aoye-3/Dubbing-room)** — プロジェクト固有の SVG ヒーロー、実際のデスクトップ画面、デュアルモデルのワークフロー図を使い、VoxCPM2 による音声作成と IndexTTS2 による台詞表現がローカルの吹き替えスタジオをどう構成するかを示します。
 
 この Skill を使って公開したいと思える README を作成できた場合は、PR でこの一覧への追加を提案できます。これは完全に任意です。フッターへの署名は歓迎されますが必須ではなく、掲載の提案は引き続きメンテナーの審査対象です。
 
