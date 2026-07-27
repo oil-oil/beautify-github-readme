@@ -14,7 +14,7 @@
   <img src="./assets/readme/section-used-by.svg" width="100%" alt="这些 README 已经在使用 beautify-github-readme。">
 </p>
 
-这不是一组假想模板。下面六个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
+这不是一组假想模板。下面七个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** · 把程序化 PPT 的方法、效果和使用路径放在同一套视觉系统里。
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** · 用真实 UI 设计稿解释从需求、参考图到 HTML/CSS 还原的过程。
@@ -22,6 +22,7 @@
 - **[Selector](https://github.com/oil-oil/selector)** · 把网页选取、结构化上下文和实际输出直接放进首屏与示例。
 - **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** · 用角色化团队图说明 Codex 主线程如何把代码探索、边界明确的实现和独立复审分给四个自定义 Agent。
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** · 用项目原生 SVG 标题和真实仪表盘截图，展示一个自托管车辆遥测仪表盘。
+- **[Wolfcha](https://github.com/oil-oil/wolfcha)** · 用 SVG 排版与 AI 生成人物抠图，把“一个人也能玩狼人杀”做成电影感、项目原生的首屏。
 
 如果这个 Skill 帮你做出了一份愿意公开分享的 README，欢迎通过 PR 申请加入这个列表。完全自愿：是否使用页尾脚标签名不影响申请，展示内容仍会经过维护者审核。
 
@@ -32,16 +33,22 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/case-pytorch.svg" width="100%" alt="PyTorch README 标题示例：暖白背景、橙色路径和神经网络节点。">
-</p>
-
-<p align="center">
   <img src="./assets/readme/case-postgresql.svg" width="100%" alt="PostgreSQL README 标题示例：深蓝背景、衬线标题和数据库表结构。">
 </p>
 
 <p align="center">
-  <img src="./assets/readme/case-rust.svg" width="100%" alt="Rust README 标题示例：暖灰背景、工业大字和代码结构。">
+  <img src="./assets/readme/case-block-world.png" width="100%" alt="方块世界混合式 README 首图：像素风 SVG 构图结合 AI 生成的建造者人物抠图。">
 </p>
+
+**方块世界** 展示了一种更轻松的混合式方向：SVG 构建像素字体、网格、标签与场景结构，ImageGen 和固定抠图则负责难以稳定手绘的人物主体。
+
+<p align="center">
+  <a href="https://github.com/oil-oil/wolfcha">
+    <img src="./assets/readme/case-wolfcha.png" width="100%" alt="Wolfcha 混合式 README 首图：SVG 精确排版和圆桌关系图，结合 AI 生成的狼人格主持人。">
+  </a>
+</p>
+
+**[Wolfcha](https://github.com/oil-oil/wolfcha)** 是一个真实的混合式案例：ImageGen 生成项目专属的狼人格主持人，固定绿幕流程完成抠图，SVG 则精确控制文字、月夜圆桌、席位关系和整体构图。
 
 <p align="center">
   <img src="./assets/readme/section-why.svg" width="100%" alt="01 先让人看懂，再往下读">
@@ -70,6 +77,7 @@
 GitHub README 不能像网站一样自由使用 CSS。这个 Skill 把视觉层做成响应式 SVG，把真正需要阅读、复制和维护的内容留在 Markdown：
 
 - SVG 负责可编辑的首屏、章节、比较、流程和品牌感。
+- 混合式 SVG 构图把确定性的 SVG 排版，与可选的 AI 生图和抠图素材结合，适合人物、有机质感、复杂材质和电影感光影。
 - GIF 负责经过确认的动效，同时保留静态 SVG 作为可编辑源文件和降级版本。
 - 动效必须由用户主动选择，不会默认生成。
 - PNG/WebP 负责截图、生成图片和复杂作品墙。
@@ -81,6 +89,7 @@ GitHub README 不能像网站一样自由使用 CSS。这个 Skill 把视觉层�
 
 - [怎么从项目内容设计标题](./skills/beautify-github-readme/references/project-native-hero.md)
 - [README SVG 的写法](./skills/beautify-github-readme/references/svg-production.md)
+- [SVG 与 AI 生图的混合式构图](./skills/beautify-github-readme/references/hybrid-svg-production.md)
 - [README 动效的制作方法](./skills/beautify-github-readme/references/motion-production.md)
 
 <p align="center">

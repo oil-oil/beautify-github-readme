@@ -1,11 +1,11 @@
 ---
 name: beautify-github-readme
-description: Redesign GitHub README homepages or create standalone GitHub-safe SVG and animated GIF assets around a repository's real theme. Use when a user asks to beautify, redesign, rebrand, visually upgrade, simplify, or audit a GitHub README; create only a hero, section headers, diagrams, badges, motion graphics, showcase modules, or other README assets; or turn a repository homepage into a cohesive visual story. If the request does not clearly distinguish whole-README work from asset-only work, ask which scope the user wants before editing anything.
+description: Redesign GitHub README homepages or create project-native pure SVG, hybrid SVG-composed PNG/WebP, and opt-in animated GIF assets. Use when a user asks to beautify, redesign, rebrand, visually upgrade, simplify, or audit a GitHub README; create only a hero, section headers, diagrams, badges, motion graphics, showcase modules, or other README assets; or turn a repository homepage into a cohesive visual story. If whole-README work versus asset-only work is unclear, ask which scope the user wants. For hero-like assets where pure SVG and generated raster material are both viable, explain the tradeoffs and confirm the implementation before creating the asset.
 ---
 
 # Beautify GitHub README
 
-Turn a repository homepage or a requested SVG asset into a concise, theme-specific visual story. Treat SVG as the visual layer and Markdown as the content layer.
+Turn a repository homepage or requested visual asset into a concise, theme-specific visual story. Treat Markdown as the content layer, deterministic SVG as the layout system, and generated raster material as an optional visual ingredient.
 
 ## Workflow
 
@@ -36,7 +36,22 @@ If the user explicitly asks only for an audit, audit without editing and do not 
 - Identify the audience, the problem solved, the clearest proof, the shortest path to first use, and any claims that lack evidence.
 - Preserve unrelated user changes. Start read-only; do not commit, push, rename, or publish without explicit authorization.
 
-### 3. Extract the project story
+### 3. Confirm the visual implementation before creating hero-like assets
+
+For a hero, large banner, showcase board, or expressive title system where both implementations are viable, explain the difference and ask before producing the asset:
+
+> Which implementation would you like?
+>
+> - **Pure SVG** — fully deterministic, lightweight, sharply scalable, easy to edit, and best for typography, diagrams, code, icons, and geometric or pixel-art scenes. It does not use image generation and is weaker for realistic people, hair, organic texture, complex materials, or cinematic lighting.
+> - **Hybrid SVG composition** — use SVG for layout and typography, optionally use ImageGen for a project-specific raster subject, remove its background when appropriate, and compose the layers into a final PNG/WebP. It supports richer characters, materials, and lighting, but is heavier, partly stochastic, and requires generation plus visual validation. Keep the SVG layout source and transparent subject PNG.
+
+Do not ask this question when the user already chose an implementation, requested an audit, or the asset is obviously deterministic, such as a workflow, architecture diagram, badge, compact section header, or code-native illustration. Do not suggest hybrid composition merely to add decoration. Prefer real screenshots, outputs, logos, or existing project art over generated material.
+
+If the user delegates the decision, default to pure SVG unless generated or photographic material clearly communicates the repository's identity or mechanism better. Do not begin ImageGen work until the user selects hybrid composition or explicitly delegates the choice.
+
+Hybrid composition is an implementation source, not normally the published SVG. Relative raster references inside SVG are unreliable across renderers, while base64-embedded raster layers can make the SVG unnecessarily large. Publish the verified final PNG/WebP by default and keep the SVG layout plus raster layers as editable sources.
+
+### 4. Extract the project story
 
 Write these before drawing:
 
@@ -50,7 +65,7 @@ Visual theme:
 
 Do not invent adoption, benchmarks, compatibility, testimonials, or features. Prefer a real screenshot, output, diagram, or generated artifact over decorative stock imagery.
 
-### 4. Define a theme-specific visual system
+### 5. Define a theme-specific visual system
 
 Read [references/visual-direction.md](references/visual-direction.md). Freeze a compact art-direction spec:
 
@@ -66,7 +81,7 @@ Derive the motif from the project. A terminal tool may use prompts and cursor ma
 
 Before designing the hero, read [references/project-native-hero.md](references/project-native-hero.md). Build the title from project content rather than treating it as a banner placed above the proof. Choose the typography, composition, and right-side material from the repository itself.
 
-### 5. Execute only the selected mode
+### 6. Execute only the selected mode
 
 #### README mode
 
@@ -91,17 +106,18 @@ Put the example before the long explanation. Remove repeated promises and intern
 
 - Confirm the requested asset type, whether the user wants one asset or a coordinated set, and whether a meaningful motion candidate should stay static or become a GIF. Derive exact copy and style from the repository when they are unambiguous; ask only for missing decisions that would materially change the result.
 - Create the assets under `assets/readme/` or another user-approved path and provide rendered previews.
-- Default to pure, maintainable SVG for title systems, section headers, diagrams, badges, and deterministic decorative modules.
+- Follow the confirmed visual implementation. Default to pure, maintainable SVG for title systems, section headers, diagrams, badges, and deterministic decorative modules. For confirmed hybrid composition, keep the SVG layout source and transparent raster layers, then publish a composed PNG/WebP.
 - For approved animation, keep the SVG source, read [references/motion-production.md](references/motion-production.md), and derive a GitHub-safe GIF with the bundled `scripts/render_motion_gif.py` workflow. Do not generate the GIF unless the user opted in.
 - Keep one shared visual grammar across a set, but give every asset a specific communication job.
 - Do not change README text, reading order, embeds, or links. Offer an embed snippet separately when useful; only insert it after explicit approval.
 
-### 6. Build the visual layer
+### 7. Build the visual layer
 
 Read [references/github-readme-canvas.md](references/github-readme-canvas.md) and [references/svg-production.md](references/svg-production.md) before creating assets.
 
 - Use SVG for the hero, section banners, diagrams, and deterministic design modules.
 - Use PNG/WebP for screenshots, generated art, photo material, and complex compositing. Use GIF only for approved motion that must play directly on GitHub.
+- When hybrid composition is selected, read [references/hybrid-svg-production.md](references/hybrid-svg-production.md), use the `imagegen` Skill for generation and transparency decisions, and keep exact copy out of the generated raster layer.
 - Keep body copy, commands, tables, links, and details in Markdown.
 - Prefer a `1200`-wide SVG `viewBox`, `width="100%"` embeds, system fonts, semantic alt text, and rounded containers.
 - Use one reusable component grammar, but vary the art direction by repository theme.
@@ -112,7 +128,7 @@ Read [references/github-readme-canvas.md](references/github-readme-canvas.md) an
 
 Do not rasterize the whole README. Do not use scripts, `foreignObject`, remote fonts, essential animation, or CSS that GitHub strips. GitHub does not play animation embedded inside SVG; use a GIF plus static SVG fallback instead. Avoid decorative borders and heavy shadows unless the theme genuinely calls for them.
 
-### 7. Preview and verify
+### 8. Preview and verify
 
 - Render a local GitHub-width preview or inspect the README on a local Markdown renderer.
 - Check wide and narrow layouts, image legibility, clipped SVG text, missing assets, excessive file size, and dark/light-mode contrast.
@@ -124,9 +140,10 @@ python3 scripts/audit_readme.py /path/to/repository/README.md
 
 - Visually inspect the hero, every section transition, and the final call to action.
 - In asset-only mode, render and inspect every requested asset at GitHub content width; for GIFs, inspect entry, settled hold, exit, and loop boundary. Verify that the README itself is unchanged unless embedding was separately approved.
+- For hybrid assets, inspect the transparent subject on light and dark backgrounds, verify transparent corners and clean edges, then inspect the composed PNG/WebP at wide and narrow GitHub widths. Do not publish an SVG with unresolved local raster references.
 - Report what changed, what remains intentionally plain, and which files were deliberately left untouched.
 
-### 8. Offer optional attribution and showcase sharing after approval
+### 9. Offer optional attribution and showcase sharing after approval
 
 Only after the user explicitly approves the final README or asset set as satisfactory, make one friendly, non-promotional offer:
 
@@ -140,7 +157,7 @@ Only after the user explicitly approves the final README or asset set as satisfa
 
 This gate controls unsolicited offers. If the user explicitly requests a signature or showcase contribution earlier, handle that request directly within its stated scope.
 
-### 9. Hand off safely
+### 10. Hand off safely
 
 Show the local preview and diff first. Only commit, push, open a PR, merge, rename a repository, or publish assets when the user explicitly asks.
 
@@ -149,6 +166,7 @@ Show the local preview and diff first. Only commit, push, open a PR, merge, rena
 - The first screen explains the project without requiring prior knowledge.
 - The design looks native to this project, not to this Skill.
 - The hero's visual material comes from the project and is not generic decoration.
+- Generated material is optional, project-specific, and never replaces stronger real proof.
 - Every visual module has a communication job.
 - Real proof appears before abstract claims.
 - The README becomes shorter or clearer, not merely more decorated.
@@ -167,6 +185,10 @@ Use $beautify-github-readme to redesign this repository homepage around its deve
 
 ```text
 Use $beautify-github-readme to create one SVG hero and three section headers without modifying the README.
+```
+
+```text
+Use $beautify-github-readme to create a hybrid hero: SVG typography and layout, plus an ImageGen character cutout, with a final PNG and editable source layers.
 ```
 
 ```text
