@@ -14,7 +14,7 @@
   <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="すでに beautify-github-readme を利用している実在のリポジトリ。">
 </p>
 
-これらは架空のテンプレートではありません。この手法はすでに 7 つの公開リポジトリで使われており、それぞれが独自のビジュアル言語とコンテンツ構成を備えています。
+これらは架空のテンプレートではありません。この手法はすでに 8 つの公開リポジトリで使われており、それぞれが独自のビジュアル言語とコンテンツ構成を備えています。
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — プログラムによるスライド作成の手法、成果、最初の利用手順を、一つのビジュアルシステムで提示します。
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** — 実際の UI 出力を使い、要件と参照画像から HTML/CSS を再構築するまでの流れを説明します。
@@ -23,6 +23,7 @@
 - **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — キャラクターを使ったチームマップにより、一つの Codex メインスレッドが探索、範囲を限定した実装、独立レビューを 4 つのカスタムエージェントへ委任する方法を説明します。
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — OBD-II PID データを使ったプロジェクト固有の SVG ヒーローと実際のダッシュボード画面により、セルフホスト型の車両テレメトリーダッシュボードを紹介します。
 - **[summertown](https://github.com/SummerPapaya/summertown)** — 海辺の地図ヒーローとランドマークのショーケースを使い、インタラクティブな街の地図を紹介します。
+- **[Wolfcha](https://github.com/oil-oil/wolfcha)** — SVG タイポグラフィと AI 生成キャラクターの切り抜きを組み合わせ、「一人で遊べる人狼」を映画的でプロジェクト固有の冒頭画面に仕上げています。
 
 この Skill を使って公開したいと思える README を作成できた場合は、PR でこの一覧への追加を提案できます。これは完全に任意です。フッターへの署名は歓迎されますが必須ではなく、掲載の提案は引き続きメンテナーの審査対象です。
 
@@ -33,16 +34,22 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/en/case-pytorch.svg" width="100%" alt="暖かみのある白い背景とニューラルネットワークの経路を使った PyTorch README のヒーロー例。">
-</p>
-
-<p align="center">
   <img src="./assets/readme/en/case-postgresql.svg" width="100%" alt="深い青のエディトリアルレイアウトとリレーショナルテーブルを使った PostgreSQL README のヒーロー例。">
 </p>
 
 <p align="center">
-  <img src="./assets/readme/en/case-rust.svg" width="100%" alt="工業的なタイポグラフィとコード構造を使った Rust README のヒーロー例。">
+  <img src="./assets/readme/en/case-block-world.png" width="100%" alt="ピクセル風 SVG 構図と AI 生成ビルダーキャラクターの切り抜きを組み合わせた Block World のハイブリッド README ヒーロー。">
 </p>
+
+**Block World** は、遊び心のあるハイブリッド表現です。SVG がピクセルタイポグラフィ、グリッド、ラベル、シーン構造を担当し、ImageGen とクロマキー除去が決定論的に描きにくい人物を補います。
+
+<p align="center">
+  <a href="https://github.com/oil-oil/wolfcha">
+    <img src="./assets/readme/en/case-wolfcha.png" width="100%" alt="正確な SVG タイポグラフィと卓上図に、AI 生成の狼ゲームマスターを組み合わせた Wolfcha のハイブリッド README ヒーロー。">
+  </a>
+</p>
+
+**[Wolfcha](https://github.com/oil-oil/wolfcha)** は実際のハイブリッド事例です。ImageGen がプロジェクト固有の狼ゲームマスターを生成し、固定クロマキー処理で背景を除去し、SVG がタイポグラフィ、月夜の円卓、座席図、構図を正確に制御します。
 
 <p align="center">
   <img src="./assets/readme/en/section-why.svg" width="100%" alt="01 読み進めてもらう前に、プロジェクトの内容を明確にします。">
@@ -71,6 +78,7 @@ README 全体モードでは、次の 3 つの層を横断して作業します�
 GitHub README には、Web サイトほど自由なレイアウト機能がありません。この Skill はビジュアル層とコンテンツ層を分離します。
 
 - SVG は、編集可能なヒーロー、セクションの区切り、比較、図、アイデンティティを担当します。
+- ハイブリッド SVG 構図は、決定論的な SVG レイアウトと、任意の AI 生成・背景除去済み素材を組み合わせ、キャラクター、有機的な質感、複雑な素材、映画的な照明を表現します。
 - GIF は承認されたモーションを担当し、静的な SVG は編集可能なフォールバックとして残します。
 - モーションはオプトインで、デフォルトでは生成しません。
 - PNG/WebP は、スクリーンショット、生成画像、複雑なショーケースウォールを担当します。
@@ -82,6 +90,7 @@ GitHub README には、Web サイトほど自由なレイアウト機能があ�
 
 - [プロジェクト固有のヒーローを設計する](./skills/beautify-github-readme/references/project-native-hero.md)
 - [GitHub 対応の README SVG を作成する](./skills/beautify-github-readme/references/svg-production.md)
+- [SVG と生成ラスター素材を合成する](./skills/beautify-github-readme/references/hybrid-svg-production.md)
 - [GitHub 対応の README モーションを制作する](./skills/beautify-github-readme/references/motion-production.md)
 
 <p align="center">
