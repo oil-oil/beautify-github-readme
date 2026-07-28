@@ -14,7 +14,7 @@
   <img src="./assets/readme/section-used-by.svg" width="100%" alt="这些 README 已经在使用 beautify-github-readme。">
 </p>
 
-这不是一组假想模板。下面八个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
+这不是一组假想模板。下面九个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
 
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** · 把程序化 PPT 的方法、效果和使用路径放在同一套视觉系统里。
 - **[draw-ui](https://github.com/oil-oil/draw-ui)** · 用真实 UI 设计稿解释从需求、参考图到 HTML/CSS 还原的过程。
@@ -24,6 +24,7 @@
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** · 用项目原生 SVG 标题和真实仪表盘截图，展示一个自托管车辆遥测仪表盘。
 - **[summertown](https://github.com/SummerPapaya/summertown)** · 用海滨地图主视觉和地标展示，介绍一个可交互的小镇地图。
 - **[Wolfcha](https://github.com/oil-oil/wolfcha)** · 用 SVG 排版与 AI 生成人物抠图，把“一个人也能玩狼人杀”做成电影感、项目原生的首屏。
+- **[wecom-qoder-bridge](https://github.com/painrice/wecom-qoder-bridge)** · 用终端 mock 做 hero、再用一张五节点系统图，讲清楚怎么让企微智能机器人直接调起本机 qoderclicn，全程不需要公网域名。
 
 如果这个 Skill 帮你做出了一份愿意公开分享的 README，欢迎通过 PR 申请加入这个列表。完全自愿：是否使用页尾脚标签名不影响申请，展示内容仍会经过维护者审核。
 
