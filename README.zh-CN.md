@@ -24,6 +24,7 @@
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** · 用项目原生 SVG 标题和真实仪表盘截图，展示一个自托管车辆遥测仪表盘。
 - **[summertown](https://github.com/SummerPapaya/summertown)** · 用海滨地图主视觉和地标展示，介绍一个可交互的小镇地图。
 - **[Wolfcha](https://github.com/oil-oil/wolfcha)** · 用 SVG 排版与 AI 生成人物抠图，把“一个人也能玩狼人杀”做成电影感、项目原生的首屏。
+- **[codeblast](https://github.com/alloevil/codeblast)** · 首屏直接用仓库里真实提交的 impact 结果：一个符号、它在 direct / transitive / tests 三档上的波及面，以及带 file:line 的调用边。
 
 如果这个 Skill 帮你做出了一份愿意公开分享的 README，欢迎通过 PR 申请加入这个列表。完全自愿：是否使用页尾脚标签名不影响申请，展示内容仍会经过维护者审核。
 
