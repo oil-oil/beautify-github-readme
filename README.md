@@ -1,176 +1,115 @@
 <p align="right">
-  <strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a>
+  <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a>
 </p>
 
-<p align="center">
-  <img src="./assets/readme/en/hero.gif" width="100%" alt="Beautify GitHub README: help visitors understand a repository at first glance.">
-</p>
+# beautify-github-readme
 
-<p align="center">
-  <img src="./assets/readme/en/theme-wall.svg" width="100%" alt="Six project-native README directions for developer tools, AI products, design resources, research, creator projects, and open-source libraries.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="Real repositories already using beautify-github-readme.">
-</p>
-
-整理并设计仓库 README，让项目价值、真实案例、安装方式与使用边界更容易理解。
-
-- **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — presents the method, results, and first-use path for programmatic slide creation in one visual system.
-- **[draw-ui](https://github.com/oil-oil/draw-ui)** — uses real UI outputs to explain the path from a brief and reference images to HTML/CSS reconstruction.
-- **[oil-icon](https://github.com/oil-oil/oil-icon)** — uses real icon sets to explain style locking, batch generation, slicing, and transparent delivery.
-- **[Selector](https://github.com/oil-oil/selector)** — puts page selection, structured context, and real output directly into the opening screen and examples.
-- **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — uses a character-driven team map to explain how one main Codex thread delegates exploration, bounded implementation, and independent review to four custom agents.
-- **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard.
-- **[summertown](https://github.com/SummerPapaya/summertown)** — uses a seaside-map hero and landmark showcase to introduce an interactive town map.
-- **[Wolfcha](https://github.com/oil-oil/wolfcha)** — combines SVG typography and an AI-generated character cutout to turn “play Werewolf solo” into a cinematic, project-native opening screen.
-
-If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
-
-Below are four independent hero directions. They do not share one house style; each derives its typography, color, composition, and proof from the project itself.
-
-<p align="center">
-  <img src="./assets/readme/en/case-kubernetes.svg" width="100%" alt="Kubernetes README hero example with a black system layout and cluster relationship diagram.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-postgresql.svg" width="100%" alt="PostgreSQL README hero example with a deep blue editorial layout and relational tables.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-block-world.png" width="100%" alt="Block World hybrid README hero combining pixel-style SVG composition with an AI-generated builder character cutout.">
-</p>
-
-**Block World** shows a playful hybrid direction: SVG builds the pixel typography, grid, labels, and scene structure, while ImageGen and chroma-key removal supply the character that would be cumbersome to draw deterministically.
-
-<p align="center">
-  <a href="https://github.com/oil-oil/wolfcha">
-    <img src="./assets/readme/en/case-wolfcha.png" width="100%" alt="Wolfcha hybrid README hero combining precise SVG typography and table graphics with an AI-generated wolf game master.">
-  </a>
-</p>
-
-**[Wolfcha](https://github.com/oil-oil/wolfcha)** is a real hybrid case: ImageGen created the project-specific wolf game master, a fixed chroma-key workflow removed the background, and SVG kept the typography, moonlit table, seat map, and composition precise.
-
-<p align="center">
-  <img src="./assets/readme/en/section-why.svg" width="100%" alt="01 Make the project clear before asking people to keep reading.">
-</p>
-
-Most repositories already contain enough information. The problem is usually the order: visitors see internal terminology, installation commands, and directory trees before they understand what the project is for.
-
-`beautify-github-readme` reads the real repository first, identifies the clearest value and proof, and only then decides how the page should look.
-
-<p align="center">
-  <img src="./assets/readme/en/before-after.svg" width="100%" alt="A README changing from dense information with no clear entry point to a value, proof, method, and first-use sequence.">
-</p>
-
-In whole-README mode, it works across three layers:
-
-| Content | Visual system | Engineering |
-| --- | --- | --- |
-| Remove repetition, move proof forward, and replace internal jargon with concrete outcomes | Derive color, typography, composition, and project-native motifs before designing the hero and supporting modules | Keep assets GitHub-safe, images accessible, commands copyable, and body text searchable |
-
-Different projects should not receive the same template. A CLI can use command rhythm and cursors; an icon system can use keylines and cutouts; a research repository can use coordinates, charts, and evidence labels.
-
-<p align="center">
-  <img src="./assets/readme/en/section-method.svg" width="100%" alt="02 Put visual identity in SVG and readable content in Markdown.">
-</p>
-
-GitHub READMEs do not have the layout freedom of a website. This Skill separates the visual and content layers:
-
-- SVG handles editable heroes, section transitions, comparisons, diagrams, and identity.
-- Hybrid SVG composition combines deterministic SVG layout with optional AI-generated, background-removed subjects for characters, organic texture, complex materials, and cinematic lighting.
-- GIF handles approved motion while the static SVG remains the editable fallback.
-- Motion is opt-in and is never generated by default.
-- PNG/WebP handles screenshots, generated artwork, and complex showcase walls.
-- Markdown handles explanations, commands, links, configuration, and contribution details.
-
-The result can feel designed without becoming one long image that nobody can search, copy, or maintain.
-
-The reusable production guidance lives here:
-
-- [Designing a project-native hero](./skills/beautify-github-readme/references/project-native-hero.md)
-- [Writing GitHub-safe README SVGs](./skills/beautify-github-readme/references/svg-production.md)
-- [Composing SVG with generated raster material](./skills/beautify-github-readme/references/hybrid-svg-production.md)
-- [Producing GitHub-safe README motion](./skills/beautify-github-readme/references/motion-production.md)
-
-<p align="center">
-  <img src="./assets/readme/en/workflow.svg" width="100%" alt="Understand the project, set the direction, structure the content, build the visuals, and review the preview.">
-</p>
-
-The process keeps three promises: use real project material, never invent capabilities, and never publish without explicit approval.
-
-<p align="center">
-  <img src="./assets/readme/en/section-use.svg" width="100%" alt="03 Send the repository to your Agent.">
-</p>
-
-**Option 1 · Install from the command line**
+An Agent Skill that turns a repository homepage into a short visual story built from the project's own material — real screenshots, outputs, diagrams, and code — instead of a generic template.
 
 ```bash
 npx skills add oil-oil/beautify-github-readme
 ```
 
-**Option 2 · Ask your Agent to install it**
-
-```text
-Install this Skill: https://github.com/oil-oil/beautify-github-readme
-```
-
-The Skill has two explicit modes:
-
-| Mode | What it changes | What it leaves alone by default |
-| --- | --- | --- |
-| Whole README | Reading order, copy hierarchy, proof, Markdown, and the complete visual system | It will not commit, push, or publish without approval |
-| Asset-only | A static SVG hero, section headers, workflow, badge, diagram, or an optional GitHub-safe GIF with SVG source | It will not edit README copy, order, image references, or links |
-
-If the request already states the scope, the Skill starts directly. If a user only says “beautify this repository” or provides a repository URL, the Agent asks:
-
-```text
-Would you like me to improve the whole README or only create visual assets?
-If asset-only, do you need a hero, section headers, workflow, badge, motion graphic, or a coordinated set?
-```
-
-**Whole-README mode**
+Then tell your agent which scope you want (it will ask if you don't):
 
 ```text
 Use $beautify-github-readme to redesign this repository homepage around its real project theme.
 Show me a local preview first and do not push anything.
 ```
 
-**Asset-only mode**
+## Which job do you want?
+
+| You say | The Skill does | It never does without extra approval |
+| --- | --- | --- |
+| "Redesign the whole README" | Reorders content, rewrites hierarchy, rebuilds the visual system, shows a local preview + diff | Commit, push, open a PR, or publish |
+| "Just make assets" | Creates SVG heroes, headers, diagrams, badges (or an opt-in GIF with SVG source) under `assets/readme/` | Touch README text, order, embeds, or links |
+| "Audit only" | Reports on clarity, hierarchy, trust, and maintenance cost | Edit any file |
+
+Reading your README for context is not permission to change it.
+
+## Proof, not promises
+
+Eight public repositories already ship homepages built this way. None of them share a house style — each keeps its own typography, color, and proof:
+
+| Repository | What the homepage proves first |
+| --- | --- |
+| [oil-ppt](https://github.com/oil-oil/oil-ppt) | Method, results, and first-use path for programmatic slides in one visual system |
+| [draw-ui](https://github.com/oil-oil/draw-ui) | Real UI outputs tracing brief → reference → HTML/CSS reconstruction |
+| [oil-icon](https://github.com/oil-oil/oil-icon) | Style locking, batch generation, slicing, and transparent delivery on real icon sets |
+| [Selector](https://github.com/oil-oil/selector) | Page selection, structured context, and real output on the opening screen |
+| [codex-dev-team](https://github.com/oil-oil/codex-dev-team) | A character-driven team map: one main Codex thread delegating to four agents |
+| [torqueDASH-Next](https://github.com/moesix/torque-dash-next) | OBD-II PID data + a real dashboard screenshot for a self-hosted vehicle telemetry dashboard |
+| [summertown](https://github.com/SummerPapaya/summertown) | A seaside-map hero introducing an interactive town map |
+| [Wolfcha](https://github.com/oil-oil/wolfcha) | An AI-generated wolf game master fused with precise SVG typography for solo Werewolf play |
+
+Proud of a public README this Skill helped you make? Proposing it for this table via PR is welcome and entirely optional — no footer signature required.
+
+## How a run goes
+
+1. **Inspect** — README, tree, metadata, screenshots, examples, tokens, real outputs. Nothing invented: no fake adoption, benchmarks, or endorsements.
+2. **Summarize the story in five lines** — audience, one-sentence value, primary proof, first successful action, visual theme.
+3. **Freeze the art direction** — palette, type, shape, one project-derived motif, composition. A CLI gets prompts and cursors; an icon set gets keylines; research gets coordinates — never one template for all.
+4. **Build in the confirmed scope** — whole README, or assets only.
+5. **Preview and verify** — local GitHub-width render, narrow-layout check, link/asset audit, explicit approval before anything is committed or published.
+
+## The layer contract
+
+- **Markdown** owns words: explanations, commands, links, config. Searchable and copyable, always.
+- **SVG** owns layout: heroes, section transitions, comparisons, diagrams. Deterministic, editable, `1200`-unit viewBox, system fonts.
+- **PNG/WebP** owns captures: screenshots, generated art, showcase walls.
+- **GIF** owns motion — opt-in only, never by default, with the static SVG kept as fallback.
+- **Hybrid composition** (SVG layout + background-removed generated subject → final PNG/WebP) is offered only when both implementations fit, and confirmed before any generation starts.
+
+The full production rules live in [`skills/beautify-github-readme/references/`](./skills/beautify-github-readme/references/): hero direction, SVG safety, hybrid compositing, motion, canvas, content architecture, visual direction, showcase rules. Two runnable scripts ship alongside: [`audit_readme.py`](./skills/beautify-github-readme/scripts/audit_readme.py) (image refs + SVG safety) and [`render_motion_gif.py`](./skills/beautify-github-readme/scripts/render_motion_gif.py) (GitHub-safe GIF workflow). Agent metadata: [`agents/openai.yaml`](./skills/beautify-github-readme/agents/openai.yaml).
+
+## What it will not do
+
+- Commit, push, PR, merge, rename, or publish without your explicit ask.
+- Expand an asset-only job into README edits (that needs a new approval).
+- Generate motion, characters, or photographic material unprompted.
+- Rasterize the whole page into one unsearchable image.
+- Use `foreignObject`, remote fonts, scripts, or CSS GitHub strips.
+
+## Asset catalog
+
+Previously published visuals are kept as sources under [`assets/readme/`](./assets/readme/): hero SVG + GIF + motion spec, theme wall, before/after comparison, workflow diagram, section transitions, four hero case studies (Kubernetes, PostgreSQL, Block World, Wolfcha), and the follow-on-X mark. This page deliberately embeds none of them — it is pure Markdown, and that is the point: design should survive with images turned off.
+
+## Prompts you can copy
+
+Audit (read-only):
+
+```text
+Use $beautify-github-readme to audit this README for clarity, hierarchy, trust, and maintenance cost. Do not edit files.
+```
+
+Whole README:
+
+```text
+Use $beautify-github-readme to redesign this repository homepage around its real project theme.
+Show me a local preview first and do not push anything.
+```
+
+One animated hero, README untouched:
 
 ```text
 Use $beautify-github-readme to keep the README unchanged and create one animated GIF hero with its SVG source.
 Derive the style from the existing project and show me the rendered preview first.
 ```
 
-Reading a README for context does not grant permission to edit it. In asset-only mode, embedding the new assets requires a separate, explicit approval.
+## FAQ
 
-You can also request a read-only audit:
+**Will it match my project's look, or apply a house style?**
+Your project's. The motif, palette, and composition are derived from your repo; "not reusable for an unrelated project" is an explicit quality gate.
 
-```text
-Use $beautify-github-readme to audit this README for clarity, hierarchy, trust, and maintenance cost. Do not edit files.
-```
+**Where does AI-generated imagery fit?**
+Nowhere by default. Hybrid composition is proposed only when generated material communicates identity or mechanism better than real proof — and only after you confirm.
 
-Whole-README mode delivers a local preview, visual assets, and a README diff. Asset-only mode delivers source assets, rendered previews, optional GIF derivatives, and embed snippets. Commits, pushes, PRs, and publishing always require explicit authorization.
+**Why is this page so plain?**
+Deliberately. The old page embedded a dozen full-width visuals; this one links them as a catalog. If a README about READMEs can't survive as text, the method is decoration.
 
-<p align="center">
-  <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="Follow the maker on X at @I_am_oil_oil"></a>
-</p>
+## License and author
 
-MIT License
+MIT License. Made by [@I_am_oil_oil](https://x.com/I_am_oil_oil).
 
 ---
-
-This README is also a working example: it combines a project-native hero, a theme wall, real adoption proof, section transitions, and readable Markdown instead of rasterizing the whole page.
-
-## 配置、依赖与使用边界
-
-Markdown/SVG 本身无需账号或 API Key；生成 PNG/WebP 或采用 AI 生图时需要对应渲染与已授权生成工具。
-
-不伪造 star、性能、用户或品牌背书；修改后检查链接、素材与实际渲染。发布与合并遵守当前任务授权。
-
-使用示例：
-
-```text
-优化这个仓库的 README 首页，保留真实项目事实。
-```
+*English is the source of truth; [简体中文](./README.zh-CN.md) and [日本語](./README.ja.md) translations may lag behind.*
