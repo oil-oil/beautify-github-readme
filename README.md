@@ -24,6 +24,7 @@
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard.
 - **[summertown](https://github.com/SummerPapaya/summertown)** — uses a seaside-map hero and landmark showcase to introduce an interactive town map.
 - **[Wolfcha](https://github.com/oil-oil/wolfcha)** — combines SVG typography and an AI-generated character cutout to turn “play Werewolf solo” into a cinematic, project-native opening screen.
+- **[AF-Media-Bar](https://github.com/Fervent-Tempo/AF-Media-Bar)** — uses real UI to generate SVG showcase images, accompanied by a brief introduction and icons.
 
 If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
 
