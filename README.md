@@ -153,12 +153,11 @@ Use $beautify-github-readme to audit this README for clarity, hierarchy, trust, 
 
 Whole-README mode delivers a local preview, visual assets, and a README diff. Asset-only mode delivers source assets, rendered previews, optional GIF derivatives, and embed snippets. Commits, pushes, PRs, and publishing always require explicit authorization.
 
-<table width="100%">
-  <tr>
-    <td width="30%" valign="middle"><a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="250" alt="oil-ui: push AI UI design further"></a></td>
-    <td valign="middle"><strong><a href="https://github.com/oil-oil/oil-ui">Want better UI designs from AI? Try oil-ui →</a></strong><br>Explore distinct styles, compare them side by side, and refine the rendered result.</td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui: push AI UI design further"></a>
+  <br>
+  <strong><a href="https://github.com/oil-oil/oil-ui">Want better UI designs from AI? Try oil-ui →</a></strong><br>Explore distinct styles, compare them side by side, and refine the rendered result.
+</p>
 
 <p align="center">
   <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="Follow the maker on X at @I_am_oil_oil"></a>

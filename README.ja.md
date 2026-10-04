@@ -153,12 +153,11 @@ $beautify-github-readme を使い、この README の明確さ、階層、信頼
 
 README 全体モードでは、ローカルプレビュー、ビジュアルアセット、README の差分を提供します。アセットのみモードでは、ソースアセット、レンダリング済みプレビュー、任意の GIF 派生物、埋め込みスニペットを提供します。コミット、プッシュ、PR、公開には必ず明示的な承認が必要です。
 
-<table width="100%">
-  <tr>
-    <td width="30%" valign="middle"><a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="250" alt="oil-ui：AI の UI デザインをさらに磨く"></a></td>
-    <td valign="middle"><strong><a href="https://github.com/oil-oil/oil-ui">AI にもっと良い UI を作ってほしい？oil-ui を試す →</a></strong><br>異なるスタイルを並べて選び、実際の画面を見ながら磨きます。</td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui：AI の UI デザインをさらに磨く"></a>
+  <br>
+  <strong><a href="https://github.com/oil-oil/oil-ui">AI にもっと良い UI を作ってほしい？oil-ui を試す →</a></strong><br>異なるスタイルを並べて選び、実際の画面を見ながら磨きます。
+</p>
 
 <p align="center">
   <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="X で作者 @I_am_oil_oil をフォロー"></a>

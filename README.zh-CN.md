@@ -155,12 +155,11 @@ npx skills add oil-oil/beautify-github-readme
 
 整份 README 模式默认交付本地预览、视觉素材和 README diff；只生成视觉素材的模式默认交付源文件、渲染预览、可选 GIF 和嵌入代码。只有在明确授权后，才会修改引用、提交、推送或创建 PR。
 
-<table width="100%">
-  <tr>
-    <td width="30%" valign="middle"><a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="250" alt="oil-ui：把 AI 的 UI 设计能力推到极限"></a></td>
-    <td valign="middle"><strong><a href="https://github.com/oil-oil/oil-ui">想让 AI 做出更好的 UI 设计？试试 oil-ui →</a></strong><br>先探索几种风格，再并排挑选，按实际画面打磨。</td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui：把 AI 的 UI 设计能力推到极限"></a>
+  <br>
+  <strong><a href="https://github.com/oil-oil/oil-ui">想让 AI 做出更好的 UI 设计？试试 oil-ui →</a></strong><br>先探索几种风格，再并排挑选，按实际画面打磨。
+</p>
 
 <p align="center">
   <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="在 X 关注作者 @I_am_oil_oil"></a>
