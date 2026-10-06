@@ -24,6 +24,7 @@
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — OBD-II PID データを使ったプロジェクト固有の SVG ヒーローと実際のダッシュボード画面により、セルフホスト型の車両テレメトリーダッシュボードを紹介します。
 - **[summertown](https://github.com/SummerPapaya/summertown)** — 海辺の地図ヒーローとランドマークのショーケースを使い、インタラクティブな街の地図を紹介します。
 - **[Wolfcha](https://github.com/oil-oil/wolfcha)** — SVG タイポグラフィと AI 生成キャラクターの切り抜きを組み合わせ、「一人で遊べる人狼」を映画的でプロジェクト固有の冒頭画面に仕上げています。
+- **[autocad-mac-mcp](https://github.com/medjbilou/autocad-mac-mcp)** — コマンドライン風の SVG ヒーローと 4 段階の仕組み図により、MCP サーバーが AutoCAD for Mac を自身のコマンドライン経由で操作する方法を説明します。
 
 この Skill を使って公開したいと思える README を作成できた場合は、PR でこの一覧への追加を提案できます。これは完全に任意です。フッターへの署名は歓迎されますが必須ではなく、掲載の提案は引き続きメンテナーの審査対象です。
 
