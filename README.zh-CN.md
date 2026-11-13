@@ -97,7 +97,7 @@ GitHub README 不能像网站一样自由使用 CSS。这个 Skill 把视觉层�
   <img src="./assets/readme/workflow.svg" width="100%" alt="理解项目、确定主题、重组内容、制作视觉、预览确认五步工作流。">
 </p>
 
-整个过程只守三件事：使用真实内容、不编造产品能力、没有确认就不推送。
+整个过程只守四件事：使用真实内容、不编造产品能力、私人文件和数据不进公开内容、没有确认就不推送。
 
 <p align="center">
   <img src="./assets/readme/section-use.svg" width="100%" alt="03 把仓库链接发给 Agent">

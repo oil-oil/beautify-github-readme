@@ -97,7 +97,7 @@ The reusable production guidance lives here:
   <img src="./assets/readme/en/workflow.svg" width="100%" alt="Understand the project, set the direction, structure the content, build the visuals, and review the preview.">
 </p>
 
-The process keeps three promises: use real project material, never invent capabilities, and never publish without explicit approval.
+The process keeps four promises: use real project material, never invent capabilities, keep private files and data out of what gets published, and never publish without explicit approval.
 
 <p align="center">
   <img src="./assets/readme/en/section-use.svg" width="100%" alt="03 Send the repository to your Agent.">
@@ -173,7 +173,7 @@ This README is also a working example: it combines a project-native hero, a them
 
 Markdown/SVG 本身无需账号或 API Key；生成 PNG/WebP 或采用 AI 生图时需要对应渲染与已授权生成工具。
 
-不伪造 star、性能、用户或品牌背书；修改后检查链接、素材与实际渲染。发布与合并遵守当前任务授权。
+不伪造 star、性能、用户或品牌背书；本机路径、私有项目内容、原始日志和测试数据默认不进 README 和公开文件；修改后检查链接、素材与实际渲染。发布与合并遵守当前任务授权。
 
 使用示例：
 
