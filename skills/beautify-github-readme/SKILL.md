@@ -34,6 +34,7 @@ If the user explicitly asks only for an audit, audit without editing and do not 
 - In asset-only mode, inspect only the context needed to design the requested assets. Reading the README for context does not authorize changing it.
 - For a GitHub URL, inspect the current remote page and default branch before proposing changes.
 - Identify the audience, the problem solved, the clearest proof, the shortest path to first use, and any claims that lack evidence.
+- When the repository is public or about to be published, list what would ship and keep private material out by default: personal absolute paths, private project code or names, raw logs, transcripts, raw benchmark runs, and credentials. Do not link to or quote it in the README or its assets; an anonymized summary of results is fine. In README mode, also exclude it from the published files, for example with `.gitignore`. Report what you excluded instead of asking whether it should ship.
 - Preserve unrelated user changes. Start read-only; do not commit, push, rename, or publish without explicit authorization.
 
 ### 3. Confirm the visual implementation before creating hero-like assets
@@ -63,7 +64,7 @@ First successful action:
 Visual theme:
 ```
 
-Do not invent adoption, benchmarks, compatibility, testimonials, or features. Prefer a real screenshot, output, diagram, or generated artifact over decorative stock imagery.
+Do not invent adoption, benchmarks, compatibility, testimonials, or features. When proof comes from small or noisy tests, state magnitudes or ranges with the test conditions instead of precise figures. Prefer a real screenshot, output, diagram, or generated artifact over decorative stock imagery.
 
 ### 5. Define a theme-specific visual system
 
