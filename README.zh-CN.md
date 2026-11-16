@@ -155,6 +155,8 @@ npx skills add oil-oil/beautify-github-readme
 
 整份 README 模式默认交付本地预览、视觉素材和 README diff；只生成视觉素材的模式默认交付源文件、渲染预览、可选 GIF 和嵌入代码。只有在明确授权后，才会修改引用、提交、推送或创建 PR。
 
+想继续了解平时怎么写好一个 Skill，或者怎么把开源项目和付费产品结合起来做，可以看 Oil Book 里的[《如何从 0 到 1 写一个好用的 Skill》](https://book.oiloil.org/articles/skill-dev-guide?utm_source=github&utm_medium=referral&utm_campaign=beautify-readme)和[《如何做一个商业化的付费 Skill》](https://book.oiloil.org/articles/commercial-paid-skill?utm_source=github&utm_medium=referral&utm_campaign=beautify-readme)。
+
 <p align="center">
   <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui：把 AI 的 UI 设计能力推到极限"></a>
   <br>
