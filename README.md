@@ -24,6 +24,7 @@
 - **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard.
 - **[summertown](https://github.com/SummerPapaya/summertown)** — uses a seaside-map hero and landmark showcase to introduce an interactive town map.
 - **[Wolfcha](https://github.com/oil-oil/wolfcha)** — combines SVG typography and an AI-generated character cutout to turn “play Werewolf solo” into a cinematic, project-native opening screen.
+- **[dqtx-WeFlow-Daily](https://github.com/dqtx760/dqtx-WeFlow-Daily)** — turns a WeChat group name into a styled HTML daily report via a local WeFlow MCP, using a project-native dark hero that previews the generated report’s signature word-cloud card.
 
 If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
 
