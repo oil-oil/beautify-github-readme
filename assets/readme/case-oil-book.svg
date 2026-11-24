@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Oil Book — AI 实战课程与精译专栏</title>
+  <desc id="desc">暖纸编辑出版风格的 Oil Book 展示卡：展示免费基石长文与 Pro 体系化实战目录预览，涵盖 Vibe Coding、AI 产品设计与独立商业化。</desc>
+
+  <!-- Warm book-paper canvas -->
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="#FAF5EA" stroke="#E5D8BF" stroke-width="2"/>
+  <path d="M56 76H546M56 286H546" stroke="#E6DAC2" stroke-width="1"/>
+
+  <!-- Left: Editorial book colophon -->
+  <g id="title-block" transform="translate(56 44)" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Segoe UI', sans-serif">
+    <text x="0" y="12" fill="#9E6E0C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="2">EDITORIAL COURSE · AI 实战指南</text>
+
+    <text x="0" y="100" fill="#1F1B16" font-family="Georgia, 'Songti SC', 'STSong', serif" font-size="62" font-weight="700" letter-spacing="-1.2">Oil Book</text>
+    <rect x="2" y="114" width="64" height="5" rx="2.5" fill="#F2B824"/>
+
+    <text x="0" y="158" fill="#2E2820" font-size="23" font-weight="600">AI 实战课程与精译专栏</text>
+    <text x="0" y="190" fill="#63584A" font-size="19" font-weight="450">免费基石长文 + Pro 体系化实战</text>
+
+    <g transform="translate(0 212)" font-size="13" font-weight="600">
+      <rect x="0" y="0" width="118" height="28" rx="14" fill="#F3E7CC" stroke="#E2CF9F" stroke-width="1"/>
+      <text x="59" y="19" text-anchor="middle" fill="#6D4D08">Vibe Coding</text>
+
+      <rect x="128" y="0" width="96" height="28" rx="14" fill="#F3E7CC" stroke="#E2CF9F" stroke-width="1"/>
+      <text x="176" y="19" text-anchor="middle" fill="#6D4D08">AI 好设计</text>
+
+      <rect x="234" y="0" width="108" height="28" rx="14" fill="#F3E7CC" stroke="#E2CF9F" stroke-width="1"/>
+      <text x="288" y="19" text-anchor="middle" fill="#6D4D08">独立商业化</text>
+    </g>
+
+    <text x="0" y="276" fill="#7D6F5D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600">book.oiloil.org  →</text>
+  </g>
+
+  <!-- Right: Warm Paper Book Spread / Chapter Index Preview -->
+  <g id="book-spread" transform="translate(580 30)" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Segoe UI', sans-serif">
+    <!-- Subtle book page backing shadow layer -->
+    <rect x="10" y="8" width="556" height="292" rx="16" fill="#EFE5D0" stroke="#DFD0B2" stroke-width="1"/>
+    <!-- Main open page -->
+    <rect x="0" y="0" width="556" height="292" rx="16" fill="#FFFDF8" stroke="#E2D5BC" stroke-width="1.5"/>
+
+    <!-- Bookmark ribbon on top right -->
+    <path d="M500 0H530V44L515 34L500 44V0Z" fill="#C24B32"/>
+
+    <!-- Page header -->
+    <text x="26" y="34" fill="#8A7A64" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.5">CONTENTS · 专栏目录预览</text>
+    <path d="M26 48H482" stroke="#EDE3CF" stroke-width="1.2"/>
+
+    <!-- Chapter 01 -->
+    <g transform="translate(26 64)">
+      <text x="0" y="18" fill="#B57E0A" font-family="Georgia, serif" font-size="18" font-weight="700">01</text>
+      <text x="38" y="18" fill="#1F1B16" font-size="17" font-weight="700">Agent 提效与 Vibe Coding</text>
+      <text x="38" y="38" fill="#766A5A" font-size="13">配置 Agent、Skill 开发与子 Agent 协作流</text>
+      <rect x="404" y="4" width="96" height="24" rx="12" fill="#EAF2EC" stroke="#C5DACB" stroke-width="1"/>
+      <text x="452" y="20" text-anchor="middle" fill="#355B41" font-size="12" font-weight="700">免费基石</text>
+    </g>
+    <path d="M26 116H528" stroke="#F0E8D8" stroke-width="1"/>
+
+    <!-- Chapter 02 -->
+    <g transform="translate(26 128)">
+      <text x="0" y="18" fill="#B57E0A" font-family="Georgia, serif" font-size="18" font-weight="700">02</text>
+      <text x="38" y="18" fill="#1F1B16" font-size="17" font-weight="700">AI 产品与好设计</text>
+      <text x="38" y="38" fill="#766A5A" font-size="13">摆脱 AI 模板感，从需求判断到界面打磨</text>
+      <rect x="404" y="4" width="96" height="24" rx="12" fill="#FDF2D6" stroke="#E9CD82" stroke-width="1"/>
+      <text x="452" y="20" text-anchor="middle" fill="#8C6106" font-size="12" font-weight="700">Pro 实战</text>
+    </g>
+    <path d="M26 180H528" stroke="#F0E8D8" stroke-width="1"/>
+
+    <!-- Chapter 03 -->
+    <g transform="translate(26 192)">
+      <text x="0" y="18" fill="#B57E0A" font-family="Georgia, serif" font-size="18" font-weight="700">03</text>
+      <text x="38" y="18" fill="#1F1B16" font-size="17" font-weight="700">独立商业化与自媒体创作</text>
+      <text x="38" y="38" fill="#766A5A" font-size="13">定价策略、海外收款接入与持续分发路径</text>
+      <rect x="404" y="4" width="96" height="24" rx="12" fill="#FDF2D6" stroke="#E9CD82" stroke-width="1"/>
+      <text x="452" y="20" text-anchor="middle" fill="#8C6106" font-size="12" font-weight="700">Pro 实战</text>
+    </g>
+    <path d="M26 244H528" stroke="#F0E8D8" stroke-width="1"/>
+
+    <!-- Chapter 04 -->
+    <g transform="translate(26 254)">
+      <text x="0" y="18" fill="#B57E0A" font-family="Georgia, serif" font-size="18" font-weight="700">04</text>
+      <text x="38" y="18" fill="#1F1B16" font-size="16" font-weight="700">海外工程一手精译与模型参考</text>
+      <rect x="404" y="0" width="96" height="24" rx="12" fill="#F4EFE4" stroke="#DED2BC" stroke-width="1"/>
+      <text x="452" y="16" text-anchor="middle" fill="#63584A" font-size="12" font-weight="700">公开精译</text>
+    </g>
+  </g>
+</svg>

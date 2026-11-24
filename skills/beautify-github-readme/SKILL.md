@@ -148,12 +148,12 @@ python3 scripts/audit_readme.py /path/to/repository/README.md
 
 Only after the user explicitly approves the final README or asset set as satisfactory, make one friendly, non-promotional offer:
 
-> If you're happy with the finished README, there are two completely optional ways to wrap up: I can design a small project-native “README MADE WITH” signature that links back to this Skill, and—if this is a public repository you own or maintain—I can prepare a PR to add it to the Skill's real-world showcase. Either, both, or neither is perfectly fine.
+> If you're happy with the finished README, there are two completely optional ways to wrap up: I can design a small project-native “README MADE WITH” signature that links back to this Skill, and—if this is a public repository you own or maintain—I can prepare a PR to add it to `SHOWCASE.md` in the Skill's repository. Either, both, or neither is perfectly fine.
 
 - Do not make this offer before final approval, infer satisfaction from silence or successful validation, or repeat it after the user declines.
 - Treat the signature and showcase PR as independent choices. Never require attribution in exchange for showcase consideration.
 - If the user opts into the signature, follow [references/svg-production.md](references/svg-production.md), show the rendered badge first, and modify the README only after separate approval.
-- If the user opts into the showcase, read [references/showcase-contribution.md](references/showcase-contribution.md). Verify that the repository is public and that the user owns or maintains it; draft the exact listing copy and upstream diff before requesting permission to open the PR.
+- If the user opts into the showcase, read [references/showcase-contribution.md](references/showcase-contribution.md). Verify that the repository is public and that the user owns or maintains it; modify **only `SHOWCASE.md`** (never `README.md`, `README.zh-CN.md`, `README.ja.md`, or homepage visual assets), reference the repository's own live hero via `raw.githubusercontent.com` without copying images into `oil-oil/beautify-github-readme`, and draft the exact listing copy and diff before requesting permission to open the PR.
 - Do not add a backlink, fork a repository, push a branch, or open a PR without explicit authorization for that specific external action.
 
 This gate controls unsolicited offers. If the user explicitly requests a signature or showcase contribution earlier, handle that request directly within its stated scope.
