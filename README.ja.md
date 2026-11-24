@@ -14,43 +14,41 @@
   <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="すでに beautify-github-readme を利用している実在のリポジトリ。">
 </p>
 
-これらは架空のテンプレートではありません。この手法はすでに 8 つの公開リポジトリで使われており、それぞれが独自のビジュアル言語とコンテンツ構成を備えています。
+これらは架空のテンプレートではありません。以下の主要プロダクトとオープンソースリポジトリでは、この手法を使って独自のビジュアル言語とコンテンツ構成を整えています。
 
+- **[Oil UI](https://ui.oiloil.org/ja/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** — Claude Code・Codex・Cursor 向けの AI UI デザイン Skill。3 方向の並列比較、117 点以上の実作ギャラリー、MIT + Pro に対応しています。
+- **[Oil Studio](https://studio.oiloil.org/ja/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** — Apple Silicon 向けネイティブ Mac 画面収録・編集アプリ。クリック自動ズーム、オフライン Whisper による文字ベース編集、サブスクリプション不要の買い切りに対応しています。
+- **[Oil Motion](https://github.com/oil-oil/oil-motion)** — スクロールやポインターに連動するインタラクティブ Web アニメーション Skill（`2.9k+` Stars・MIT）。
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — プログラムによるスライド作成の手法、成果、最初の利用手順を、一つのビジュアルシステムで提示します。
-- **[draw-ui](https://github.com/oil-oil/draw-ui)** — 実際の UI 出力を使い、要件と参照画像から HTML/CSS を再構築するまでの流れを説明します。
-- **[oil-icon](https://github.com/oil-oil/oil-icon)** — 実際のアイコンセットを使い、スタイルの固定、バッチ生成、切り出し、透明背景での納品を説明します。
 - **[Selector](https://github.com/oil-oil/selector)** — ページ選択、構造化されたコンテキスト、実際の出力を、冒頭画面と例に直接配置します。
-- **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — キャラクターを使ったチームマップにより、一つの Codex メインスレッドが探索、範囲を限定した実装、独立レビューを 4 つのカスタムエージェントへ委任する方法を説明します。
-- **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — OBD-II PID データを使ったプロジェクト固有の SVG ヒーローと実際のダッシュボード画面により、セルフホスト型の車両テレメトリーダッシュボードを紹介します。
-- **[summertown](https://github.com/SummerPapaya/summertown)** — 海辺の地図ヒーローとランドマークのショーケースを使い、インタラクティブな街の地図を紹介します。
-- **[Wolfcha](https://github.com/oil-oil/wolfcha)** — SVG タイポグラフィと AI 生成キャラクターの切り抜きを組み合わせ、「一人で遊べる人狼」を映画的でプロジェクト固有の冒頭画面に仕上げています。
-- **[autocad-mac-mcp](https://github.com/medjbilou/autocad-mac-mcp)** — コマンドライン風の SVG ヒーローと 4 段階の仕組み図により、MCP サーバーが AutoCAD for Mac を自身のコマンドライン経由で操作する方法を説明します。
 
-この Skill を使って公開したいと思える README を作成できた場合は、PR でこの一覧への追加を提案できます。これは完全に任意です。フッターへの署名は歓迎されますが必須ではなく、掲載の提案は引き続きメンテナーの審査対象です。
+コミュニティの実例はすべて **[SHOWCASE.md](./SHOWCASE.md)** にまとめています。公開リポジトリを掲載したい場合は、トップページの `README*.md` ではなく **`SHOWCASE.md` のみを編集する PR** を送ってください。
 
-以下は、それぞれ独立した 4 種類のヒーローデザインです。共通の画一的なスタイルは使わず、タイポグラフィ、色、構図、根拠となる情報を各プロジェクト自体から導き出しています。
+以下は、それぞれ独立した 3 種類のプロダクト事例です。画一的なテンプレートを使わず、配色・タイポグラフィ・根拠モジュールを各プロダクト自体から導き出しています。
 
 <p align="center">
-  <img src="./assets/readme/en/case-kubernetes.svg" width="100%" alt="黒いシステムレイアウトとクラスター関係図を使った Kubernetes README のヒーロー例。">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-postgresql.svg" width="100%" alt="深い青のエディトリアルレイアウトとリレーショナルテーブルを使った PostgreSQL README のヒーロー例。">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-block-world.png" width="100%" alt="ピクセル風 SVG 構図と AI 生成ビルダーキャラクターの切り抜きを組み合わせた Block World のハイブリッド README ヒーロー。">
-</p>
-
-**Block World** は、遊び心のあるハイブリッド表現です。SVG がピクセルタイポグラフィ、グリッド、ラベル、シーン構造を担当し、ImageGen とクロマキー除去が決定論的に描きにくい人物を補います。
-
-<p align="center">
-  <a href="https://github.com/oil-oil/wolfcha">
-    <img src="./assets/readme/en/case-wolfcha.png" width="100%" alt="正確な SVG タイポグラフィと卓上図に、AI 生成の狼ゲームマスターを組み合わせた Wolfcha のハイブリッド README ヒーロー。">
+  <a href="https://ui.oiloil.org/ja/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/en/case-oil-ui.svg" width="100%" alt="Oil UI の事例カード：明るいギャラリー風レイアウトと 3 方向並列比較ボード、117 点以上の実作、MIT + Pro を提示。">
   </a>
 </p>
 
-**[Wolfcha](https://github.com/oil-oil/wolfcha)** は実際のハイブリッド事例です。ImageGen がプロジェクト固有の狼ゲームマスターを生成し、固定クロマキー処理で背景を除去し、SVG がタイポグラフィ、月夜の円卓、座席図、構図を正確に制御します。
+**[Oil UI](https://ui.oiloil.org/ja/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** は、落ち着いたギャラリー配色と選択ハンドル付きの 3 列比較ボードにより、複数方向の UI 比較をひと目で伝えます。
+
+<p align="center">
+  <a href="https://studio.oiloil.org/ja/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/en/case-oil-studio.png" width="100%" alt="Oil Studio のハイブリッド事例カード：実物の Mac アプリアイコン、SVG による正確なタイポグラフィとファインダー枠に、AI 生成の透過漫画インクイラストを合成。">
+  </a>
+</p>
+
+**[Oil Studio](https://studio.oiloil.org/ja/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** は実在のハイブリッド SVG 事例です。実物の Mac アプリアイコン、文字組、ファインダー枠を SVG で精密に制御し、AI 生成の透過キャラクター＆フィルム編集イラストを右ステージへ合成しています。
+
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-motion">
+    <img src="./assets/readme/en/case-oil-motion.svg" width="100%" alt="Oil Motion の事例カード：高コントラストなエディトリアル配色、4 コマのキーフレーム列、ベジェ曲線とスクロールトリガーを提示。">
+  </a>
+</p>
+
+**[Oil Motion](https://github.com/oil-oil/oil-motion)** は、エッジの効いたエディトリアル組版とダークなタイムラインステージを組み合わせ、キーフレーム列・ベジェ曲線・スクロール連動ノードを表現しています。
 
 <p align="center">
   <img src="./assets/readme/en/section-why.svg" width="100%" alt="01 読み進めてもらう前に、プロジェクトの内容を明確にします。">
@@ -98,7 +96,7 @@ GitHub README には、Web サイトほど自由なレイアウト機能があ�
   <img src="./assets/readme/en/workflow.svg" width="100%" alt="プロジェクトを理解し、方向性を定め、コンテンツを構成し、ビジュアルを作成し、プレビューを確認します。">
 </p>
 
-このプロセスでは、実際のプロジェクト素材を使う、機能を捏造しない、明示的な承認なしに公開しない、という 3 つの約束を守ります。
+このプロセスでは、実際のプロジェクト素材を使う、機能を捏造しない、個人的なファイルやデータを公開物に含めない、明示的な承認なしに公開しない、という 4 つの約束を守ります。
 
 <p align="center">
   <img src="./assets/readme/en/section-use.svg" width="100%" alt="03 リポジトリをエージェントへ送ります。">
@@ -153,6 +151,12 @@ $beautify-github-readme を使い、この README の明確さ、階層、信頼
 ```
 
 README 全体モードでは、ローカルプレビュー、ビジュアルアセット、README の差分を提供します。アセットのみモードでは、ソースアセット、レンダリング済みプレビュー、任意の GIF 派生物、埋め込みスニペットを提供します。コミット、プッシュ、PR、公開には必ず明示的な承認が必要です。
+
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui：AI の UI デザインをさらに磨く"></a>
+  <br>
+  <strong><a href="https://github.com/oil-oil/oil-ui">AI にもっと良い UI を作ってほしい？oil-ui を試す →</a></strong><br>異なるスタイルを並べて選び、実際の画面を見ながら磨きます。
+</p>
 
 <p align="center">
   <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="X で作者 @I_am_oil_oil をフォロー"></a>

@@ -14,43 +14,41 @@
   <img src="./assets/readme/section-used-by.svg" width="100%" alt="这些 README 已经在使用 beautify-github-readme。">
 </p>
 
-这不是一组假想模板。下面八个仓库的 README 已经用这套方法重新整理过，每个项目保留自己的视觉语言和内容结构：
+这不是一组假想模板。下面五个主力产品与开源仓库都采用这套方法构建视觉与内容结构，各自保留独立的产品语言：
 
+- **[Oil Book](https://book.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** · AI 实战课程与精译专栏，用免费基石长文与 Pro 体系化实战讲透 Vibe Coding、AI 设计与独立商业化。
+- **[Oil UI](https://ui.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** · 开源 UI 设计 Skill（MIT + Pro），支持同屏多方向并排对比、117+ 实战作品画廊与真浏览器截图打磨。
+- **[Oil Studio](https://studio.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** · Apple Silicon Mac 原生自动缩放录屏与剪辑工具，支持离线 Whisper 按字剪画面与一次买断不订阅。
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** · 把程序化 PPT 的方法、效果和使用路径放在同一套视觉系统里。
-- **[draw-ui](https://github.com/oil-oil/draw-ui)** · 用真实 UI 设计稿解释从需求、参考图到 HTML/CSS 还原的过程。
-- **[oil-icon](https://github.com/oil-oil/oil-icon)** · 用两套真实图标作品解释风格锁定、整套生成、切图与透明背景交付。
 - **[Selector](https://github.com/oil-oil/selector)** · 把网页选取、结构化上下文和实际输出直接放进首屏与示例。
-- **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** · 用角色化团队图说明 Codex 主线程如何把代码探索、边界明确的实现和独立复审分给四个自定义 Agent。
-- **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** · 用项目原生 SVG 标题和真实仪表盘截图，展示一个自托管车辆遥测仪表盘。
-- **[summertown](https://github.com/SummerPapaya/summertown)** · 用海滨地图主视觉和地标展示，介绍一个可交互的小镇地图。
-- **[Wolfcha](https://github.com/oil-oil/wolfcha)** · 用 SVG 排版与 AI 生成人物抠图，把“一个人也能玩狼人杀”做成电影感、项目原生的首屏。
-- **[autocad-mac-mcp](https://github.com/medjbilou/autocad-mac-mcp)** · 用命令行风格的 SVG 标题和四步机制图，说明一个 MCP 服务器如何通过 AutoCAD for Mac 自身的命令行来驱动它。
 
-如果这个 Skill 帮你做出了一份愿意公开分享的 README，欢迎通过 PR 申请加入这个列表。完全自愿：是否使用页尾脚标签名不影响申请，展示内容仍会经过维护者审核。
+更多社区真实案例统一收录在 **[SHOWCASE.md](./SHOWCASE.md)**。如果这个 Skill 帮你做出了一份愿意公开分享的 README，欢迎**仅向 `SHOWCASE.md` 提 PR**（请勿修改首页 `README*.md`）。
 
-下面是四个独立的标题示例。它们不共用同一种风格，只根据项目本身决定字体、颜色和右侧放什么。
+下面是三个完全不同风格的产品展示案例。它们不共用同一套模板，而是直接根据产品气质决定配色、排版和右侧证据模块：
 
 <p align="center">
-  <img src="./assets/readme/case-kubernetes.svg" width="100%" alt="Kubernetes README 标题示例：纯黑背景、无衬线大标题和集群关系图。">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/case-postgresql.svg" width="100%" alt="PostgreSQL README 标题示例：深蓝背景、衬线标题和数据库表结构。">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/case-block-world.png" width="100%" alt="方块世界混合式 README 首图：像素风 SVG 构图结合 AI 生成的建造者人物抠图。">
-</p>
-
-**方块世界** 展示了一种更轻松的混合式方向：SVG 构建像素字体、网格、标签与场景结构，ImageGen 和固定抠图则负责难以稳定手绘的人物主体。
-
-<p align="center">
-  <a href="https://github.com/oil-oil/wolfcha">
-    <img src="./assets/readme/case-wolfcha.png" width="100%" alt="Wolfcha 混合式 README 首图：SVG 精确排版和圆桌关系图，结合 AI 生成的狼人格主持人。">
+  <a href="https://book.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/case-oil-book.svg" width="100%" alt="Oil Book 展示卡：暖纸编辑出版风格、衬线标题与免费基石加 Pro 实战目录预览。">
   </a>
 </p>
 
-**[Wolfcha](https://github.com/oil-oil/wolfcha)** 是一个真实的混合式案例：ImageGen 生成项目专属的狼人格主持人，固定绿幕流程完成抠图，SVG 则精确控制文字、月夜圆桌、席位关系和整体构图。
+**[Oil Book](https://book.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** 采用暖纸出版物配色、衬线标题与书签目录卡片，直接呈现免费基石长文与 Pro 实战专栏的阅读结构。
+
+<p align="center">
+  <a href="https://ui.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/case-oil-ui.svg" width="100%" alt="Oil UI 中文展示卡：明亮画廊风格、三方向同屏并排对比面板与真浏览器截图盲审状态条。">
+  </a>
+</p>
+
+**[Oil UI](https://ui.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** 用克制的画廊暖白底与三方向并排对比视窗，直观展示从多风格探索到真浏览器截图复查的完整设计流程。
+
+<p align="center">
+  <a href="https://studio.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/case-oil-studio.png" width="100%" alt="Oil Studio 混合式中文展示卡：真实 Oil Studio 应用图标、暖白工作室纸感 SVG 排版、取景框与 AI 生成的透明底漫画墨线小人剪片插画。">
+  </a>
+</p>
+
+**[Oil Studio](https://studio.oiloil.org/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** 是一个真实的混合式 SVG 构图案例：SVG 精确控制真实应用图标组合、中文排版、功能胶囊与取景框结构，右侧合成 AI 生成的透明底漫画墨线小人录屏与机械臂剪胶片插画。
 
 <p align="center">
   <img src="./assets/readme/section-why.svg" width="100%" alt="01 先让人看懂，再往下读">
@@ -98,7 +96,7 @@ GitHub README 不能像网站一样自由使用 CSS。这个 Skill 把视觉层�
   <img src="./assets/readme/workflow.svg" width="100%" alt="理解项目、确定主题、重组内容、制作视觉、预览确认五步工作流。">
 </p>
 
-整个过程只守三件事：使用真实内容、不编造产品能力、没有确认就不推送。
+整个过程只守四件事：使用真实内容、不编造产品能力、私人文件和数据不进公开内容、没有确认就不推送。
 
 <p align="center">
   <img src="./assets/readme/section-use.svg" width="100%" alt="03 把仓库链接发给 Agent">
@@ -155,6 +153,14 @@ npx skills add oil-oil/beautify-github-readme
 ```
 
 整份 README 模式默认交付本地预览、视觉素材和 README diff；只生成视觉素材的模式默认交付源文件、渲染预览、可选 GIF 和嵌入代码。只有在明确授权后，才会修改引用、提交、推送或创建 PR。
+
+想继续了解平时怎么写好一个 Skill，或者怎么把开源项目和付费产品结合起来做，可以看 Oil Book 里的[《如何从 0 到 1 写一个好用的 Skill》](https://book.oiloil.org/articles/skill-dev-guide?utm_source=github&utm_medium=referral&utm_campaign=beautify-readme)和[《如何做一个商业化的付费 Skill》](https://book.oiloil.org/articles/commercial-paid-skill?utm_source=github&utm_medium=referral&utm_campaign=beautify-readme)。
+
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui：把 AI 的 UI 设计能力推到极限"></a>
+  <br>
+  <strong><a href="https://github.com/oil-oil/oil-ui">想让 AI 做出更好的 UI 设计？试试 oil-ui →</a></strong><br>先探索几种风格，再并排挑选，按实际画面打磨。
+</p>
 
 <p align="center">
   <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="在 X 关注作者 @I_am_oil_oil"></a>
