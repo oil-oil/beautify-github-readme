@@ -81,6 +81,17 @@ Uses a command-line-styled SVG hero and a four-stage mechanism strip to explain 
 
 Uses an evidence-labeled hero and five-stage decision workflow to explain how a business idea is tested against demand, economics, and the path to withdrawable revenue. / 用证据等级首屏和五阶段决策流程，说明如何从真实需求、经济模型与提现路径三个方面验证商业想法。
 
+
+### [UX.md](https://github.com/SolidStateNetwork/ux.md)
+
+<p align="center">
+  <a href="https://github.com/SolidStateNetwork/ux.md">
+    <img src="https://raw.githubusercontent.com/SolidStateNetwork/ux.md/main/assets/hero.svg" width="100%" alt="UX.md README hero">
+  </a>
+</p>
+
+Pairs the AGENTS.md, DESIGN.md, and UX.md file triad with a dimensioned AppShell wireframe hero and three-phase pipeline diagram to explain structural UI/UX contracts for AI coding agents. / 用 AGENTS.md、DESIGN.md 与 UX.md 的三层规范对比、带尺寸标注的 AppShell 线框首屏和三阶段流程图，说明面向 AI 编程 Agent 的结构化 UI/UX 规范与校验工具。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
