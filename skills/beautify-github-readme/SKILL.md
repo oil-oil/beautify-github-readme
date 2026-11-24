@@ -34,6 +34,7 @@ If the user explicitly asks only for an audit, audit without editing and do not 
 - In asset-only mode, inspect only the context needed to design the requested assets. Reading the README for context does not authorize changing it.
 - For a GitHub URL, inspect the current remote page and default branch before proposing changes.
 - Identify the audience, the problem solved, the clearest proof, the shortest path to first use, and any claims that lack evidence.
+- When the repository is public or about to be published, list what would ship and keep private material out by default: personal absolute paths, private project code or names, raw logs, transcripts, raw benchmark runs, and credentials. Do not link to or quote it in the README or its assets; an anonymized summary of results is fine. In README mode, also exclude it from the published files, for example with `.gitignore`. Report what you excluded instead of asking whether it should ship.
 - Preserve unrelated user changes. Start read-only; do not commit, push, rename, or publish without explicit authorization.
 
 ### 3. Confirm the visual implementation before creating hero-like assets
@@ -63,7 +64,7 @@ First successful action:
 Visual theme:
 ```
 
-Do not invent adoption, benchmarks, compatibility, testimonials, or features. Prefer a real screenshot, output, diagram, or generated artifact over decorative stock imagery.
+Do not invent adoption, benchmarks, compatibility, testimonials, or features. When proof comes from small or noisy tests, state magnitudes or ranges with the test conditions instead of precise figures. Prefer a real screenshot, output, diagram, or generated artifact over decorative stock imagery.
 
 ### 5. Define a theme-specific visual system
 
@@ -147,12 +148,12 @@ python3 scripts/audit_readme.py /path/to/repository/README.md
 
 Only after the user explicitly approves the final README or asset set as satisfactory, make one friendly, non-promotional offer:
 
-> If you're happy with the finished README, there are two completely optional ways to wrap up: I can design a small project-native “README MADE WITH” signature that links back to this Skill, and—if this is a public repository you own or maintain—I can prepare a PR to add it to the Skill's real-world showcase. Either, both, or neither is perfectly fine.
+> If you're happy with the finished README, there are two completely optional ways to wrap up: I can design a small project-native “README MADE WITH” signature that links back to this Skill, and—if this is a public repository you own or maintain—I can prepare a PR to add it to `SHOWCASE.md` in the Skill's repository. Either, both, or neither is perfectly fine.
 
 - Do not make this offer before final approval, infer satisfaction from silence or successful validation, or repeat it after the user declines.
 - Treat the signature and showcase PR as independent choices. Never require attribution in exchange for showcase consideration.
 - If the user opts into the signature, follow [references/svg-production.md](references/svg-production.md), show the rendered badge first, and modify the README only after separate approval.
-- If the user opts into the showcase, read [references/showcase-contribution.md](references/showcase-contribution.md). Verify that the repository is public and that the user owns or maintains it; draft the exact listing copy and upstream diff before requesting permission to open the PR.
+- If the user opts into the showcase, read [references/showcase-contribution.md](references/showcase-contribution.md). Verify that the repository is public and that the user owns or maintains it; modify **only `SHOWCASE.md`** (never `README.md`, `README.zh-CN.md`, `README.ja.md`, or homepage visual assets), reference the repository's own live hero via `raw.githubusercontent.com` without copying images into `oil-oil/beautify-github-readme`, and draft the exact listing copy and diff before requesting permission to open the PR.
 - Do not add a backlink, fork a repository, push a branch, or open a PR without explicit authorization for that specific external action.
 
 This gate controls unsolicited offers. If the user explicitly requests a signature or showcase contribution earlier, handle that request directly within its stated scope.
