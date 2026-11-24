@@ -37,6 +37,17 @@ Uses a project-native SVG hero with OBD-II PID data and a real dashboard screens
 
 Uses a terminal-mock hero and a five-node system map to expose a local qoderclicn agent behind a WeCom smart bot without needing a public domain. / 用终端 mock 做 hero、再用一张五节点系统图，讲清楚怎么让企微智能机器人直接调起本机 qoderclicn，全程不需要公网域名。
 
+
+### [kimi-tide](https://github.com/tafcear/kimi-tide)
+
+<p align="center">
+  <a href="https://github.com/tafcear/kimi-tide">
+    <img src="https://raw.githubusercontent.com/tafcear/kimi-tide/main/docs/assets/readme/hero-en.gif" width="100%" alt="kimi-tide README hero">
+  </a>
+</p>
+
+Uses an animated open-fan-out hero (one message routed from a decision point to any mounted provider) to present a per-step, provider-agnostic model router for DeepSeek Harness. / 用潮汐色动效首图（一条消息经决策点扇出到任意已挂载 provider）介绍 DSH 的逐步、provider 无偏模型路由器。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
