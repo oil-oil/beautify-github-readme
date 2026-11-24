@@ -84,6 +84,17 @@ Uses an evidence-labeled hero and five-stage decision workflow to explain how a 
 
 Uses a seaside-map hero and landmark showcase to introduce an interactive town map. / 用海滨地图主视觉和地标展示，介绍一个可交互的小镇地图。
 
+
+### [Tekken 8 Assistant](https://github.com/Hainox/tekken8-assistant)
+
+<p align="center">
+  <a href="https://github.com/Hainox/tekken8-assistant">
+    <img src="https://raw.githubusercontent.com/Hainox/tekken8-assistant/main/assets/readme/hero.svg" width="100%" alt="Tekken 8 Assistant README hero">
+  </a>
+</p>
+
+Uses a notation-chip SVG hero and a real in-game overlay screenshot to explain a live character-detecting combo assistant for Tekken 8. / 用带彩色按键的招式图标 SVG 首屏和真实游戏内覆盖层截图，介绍一个实时识别双方角色的 Tekken 8 助手。
+
 ---
 
 ## How to Submit · 如何投稿
