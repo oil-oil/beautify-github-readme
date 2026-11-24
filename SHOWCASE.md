@@ -103,6 +103,17 @@ Uses an evidence-labeled hero and five-stage decision workflow to explain how a 
 
 Pairs the AGENTS.md, DESIGN.md, and UX.md file triad with a dimensioned AppShell wireframe hero and three-phase pipeline diagram to explain structural UI/UX contracts for AI coding agents. / 用 AGENTS.md、DESIGN.md 与 UX.md 的三层规范对比、带尺寸标注的 AppShell 线框首屏和三阶段流程图，说明面向 AI 编程 Agent 的结构化 UI/UX 规范与校验工具。
 
+
+### [workflow-gate](https://github.com/getfunWindz/workflow-gate)
+
+<p align="center">
+  <a href="https://github.com/getfunWindz/workflow-gate">
+    <img src="https://raw.githubusercontent.com/getfunWindz/workflow-gate/main/assets/readme/hero.svg" width="100%" alt="workflow-gate README hero">
+  </a>
+</p>
+
+Uses a dark monochrome gate-chain hero and a real `wf_begin` session card to show agent skills enforced as ordered stage gates. / 用深色单色门控链路首图与真实 `wf_begin` 会话卡，展示如何把 agent 技能编排为有序的阶段门控。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
