@@ -123,7 +123,7 @@ Uses a dark monochrome gate-chain hero and a real `wf_begin` session card to sho
   </a>
 </p>
 
-プロジェクト固有の SVG ヒーロー、実際のデスクトップ画面、デュアルモデルのワークフロー図を使い、VoxCPM2 による音声作成と IndexTTS2 による台詞表現がローカルの吹き替えスタジオをどう構成するかを示します。 / 用项目原生 SVG 首屏、真实桌面截图和双模型工作流图，说明 VoxCPM2 声音创建与 IndexTTS2 台词表演如何组成一间本地配音室。
+Combines a project-native SVG hero, real desktop screenshots, and a dual-model workflow diagram to explain how VoxCPM2 voice creation and IndexTTS2 line performance form a local dubbing studio. / 用项目原生 SVG 首屏、真实桌面截图和双模型工作流图，说明 VoxCPM2 声音创建与 IndexTTS2 台词表演如何组成一间本地配音室。
 
 ---
 
