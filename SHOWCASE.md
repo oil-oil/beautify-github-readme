@@ -48,6 +48,17 @@ Uses a terminal-mock hero and a five-node system map to expose a local qoderclic
 
 Uses an animated open-fan-out hero (one message routed from a decision point to any mounted provider) to present a per-step, provider-agnostic model router for DeepSeek Harness. / 用潮汐色动效首图（一条消息经决策点扇出到任意已挂载 provider）介绍 DSH 的逐步、provider 无偏模型路由器。
 
+
+### [autocad-mac-mcp](https://github.com/medjbilou/autocad-mac-mcp)
+
+<p align="center">
+  <a href="https://github.com/medjbilou/autocad-mac-mcp">
+    <img src="https://raw.githubusercontent.com/medjbilou/autocad-mac-mcp/main/assets/readme/hero.svg" width="100%" alt="autocad-mac-mcp README hero">
+  </a>
+</p>
+
+Uses a command-line-styled SVG hero and a four-stage mechanism strip to explain how an MCP server drives AutoCAD for Mac through its own command line. / 用命令行风格的 SVG 标题和四步机制图，说明一个 MCP 服务器如何通过 AutoCAD for Mac 自身的命令行来驱动它。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
