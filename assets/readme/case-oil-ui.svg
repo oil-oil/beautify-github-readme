@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Oil UI — 把 AI 的 UI 设计能力推到极限</title>
+  <desc id="desc">明亮画廊风格的 Oil UI 中文展示卡：展示多方向同屏对比与真浏览器截图打磨流程，支持 MIT 开源版与买断 Pro 版。</desc>
+
+  <!-- Crisp gallery alabaster canvas -->
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="2"/>
+  <path d="M56 76H556M56 286H556" stroke="#E5E2D9" stroke-width="1"/>
+
+  <!-- Left: Gallery Chinese Typography -->
+  <g id="title-block" transform="translate(56 44)" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Segoe UI', sans-serif">
+    <text x="0" y="12" fill="#435A47" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="2">UI DESIGN SKILL · 117+ 实战作品</text>
+
+    <text x="0" y="102" fill="#171916" font-size="64" font-weight="760" letter-spacing="-2.2">Oil UI</text>
+
+    <text x="0" y="150" fill="#232822" font-size="23" font-weight="600">把 AI 的 UI 设计能力推到极限</text>
+    <text x="0" y="182" fill="#5D645C" font-size="19" font-weight="450">多方向并排对比与真浏览器截图打磨</text>
+
+    <g transform="translate(0 206)" font-size="13" font-weight="600">
+      <rect x="0" y="0" width="120" height="30" rx="15" fill="#435A47"/>
+      <text x="60" y="20" text-anchor="middle" fill="#FFFFFF">同屏三方向对比</text>
+
+      <rect x="132" y="0" width="108" height="30" rx="15" fill="#EBEAE2" stroke="#D4D1C6" stroke-width="1"/>
+      <text x="186" y="20" text-anchor="middle" fill="#374038">真浏览器复查</text>
+
+      <rect x="252" y="0" width="104" height="30" rx="15" fill="#EBEAE2" stroke="#D4D1C6" stroke-width="1"/>
+      <text x="304" y="20" text-anchor="middle" fill="#374038">MIT + Pro</text>
+    </g>
+
+    <text x="0" y="274" fill="#63685F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600">ui.oiloil.org  →</text>
+  </g>
+
+  <!-- Right: 3-Direction Comparison + Real-Browser Review Strip -->
+  <g id="gallery-compare" transform="translate(592 32)" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="554" height="296" rx="18" fill="#FFFFFF" stroke="#E0DDD4" stroke-width="1.5"/>
+
+    <!-- Top header -->
+    <path d="M0 42H554" stroke="#EDEAE2" stroke-width="1"/>
+    <text x="20" y="26" fill="#4A524A" font-size="13" font-weight="700">多方向同屏对比面板</text>
+    <text x="534" y="26" text-anchor="end" fill="#435A47" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">DESIGN.md</text>
+
+    <!-- Option A -->
+    <g transform="translate(18 56)">
+      <rect x="0" y="0" width="162" height="178" rx="12" fill="#FAF7F0" stroke="#E5DFD2" stroke-width="1.2"/>
+      <text x="14" y="24" fill="#7D7364" font-size="12" font-weight="700">方向 A · 编辑风</text>
+      <rect x="14" y="36" width="94" height="10" rx="3" fill="#2A2621"/>
+      <rect x="14" y="52" width="124" height="6" rx="3" fill="#C4BBAE"/>
+      <rect x="14" y="70" width="134" height="58" rx="8" fill="#EFE8DA"/>
+      <rect x="24" y="82" width="48" height="7" rx="2" fill="#C46A41"/>
+      <rect x="24" y="96" width="104" height="5" rx="2" fill="#AFA493"/>
+      <rect x="14" y="140" width="62" height="24" rx="6" fill="#EDE7DA"/>
+      <rect x="84" y="140" width="64" height="24" rx="6" fill="#EDE7DA"/>
+    </g>
+
+    <!-- Option B (Selected) -->
+    <g transform="translate(196 56)">
+      <rect x="-3" y="-3" width="168" height="184" rx="14" fill="none" stroke="#435A47" stroke-width="2"/>
+      <rect x="0" y="0" width="162" height="178" rx="12" fill="#F3F6F3" stroke="#9AB3B6" stroke-width="1"/>
+      <rect x="-6" y="-6" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#435A47" stroke-width="1.8"/>
+      <rect x="160" y="-6" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#435A47" stroke-width="1.8"/>
+      <rect x="-6" y="176" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#435A47" stroke-width="1.8"/>
+      <rect x="160" y="176" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#435A47" stroke-width="1.8"/>
+
+      <text x="14" y="24" fill="#435A47" font-size="12" font-weight="700">方向 B · 画廊风</text>
+      <rect x="14" y="36" width="108" height="10" rx="3" fill="#171916"/>
+      <rect x="14" y="52" width="130" height="6" rx="3" fill="#8B9890"/>
+      <rect x="14" y="68" width="60" height="62" rx="8" fill="#435A47"/>
+      <rect x="22" y="82" width="38" height="5" rx="2" fill="#D9E4DC"/>
+      <rect x="82" y="68" width="66" height="28" rx="6" fill="#FFFFFF" stroke="#D5DDD8" stroke-width="1"/>
+      <rect x="82" y="102" width="66" height="28" rx="6" fill="#E3EAE6"/>
+      <rect x="14" y="140" width="134" height="26" rx="7" fill="#435A47"/>
+      <text x="81" y="157" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700">已选定 · 精修</text>
+    </g>
+
+    <!-- Option C -->
+    <g transform="translate(374 56)">
+      <rect x="0" y="0" width="162" height="178" rx="12" fill="#181B20" stroke="#2C313A" stroke-width="1.2"/>
+      <text x="14" y="24" fill="#9DA7B8" font-size="12" font-weight="700">方向 C · 暗色台</text>
+      <rect x="14" y="36" width="90" height="10" rx="3" fill="#F3F5F8"/>
+      <rect x="14" y="52" width="122" height="6" rx="3" fill="#5D6675"/>
+      <rect x="14" y="70" width="134" height="54" rx="8" fill="#232830"/>
+      <circle cx="30" cy="88" r="5" fill="#9AB3B6"/>
+      <rect x="42" y="84" width="76" height="5" rx="2" fill="#CBD2DC"/>
+      <rect x="14" y="138" width="134" height="26" rx="6" fill="#2F3743"/>
+    </g>
+
+    <!-- Bottom real-browser screenshot review status strip -->
+    <g transform="translate(18 248)">
+      <rect x="0" y="0" width="518" height="34" rx="10" fill="#F4F6F4" stroke="#D8E1DB" stroke-width="1"/>
+      <circle cx="18" cy="17" r="4.5" fill="#435A47"/>
+      <text x="32" y="21" fill="#2C3A2F" font-size="12" font-weight="600">真浏览器截图盲审通过</text>
+      <text x="502" y="21" text-anchor="end" fill="#5E6B61" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">1440px · 390px · OK</text>
+    </g>
+  </g>
+</svg>
