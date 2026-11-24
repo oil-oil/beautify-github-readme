@@ -106,6 +106,17 @@ Uses a seaside-map hero and landmark showcase to introduce an interactive town m
 
 Uses a notation-chip SVG hero and a real in-game overlay screenshot to explain a live character-detecting combo assistant for Tekken 8. / 用带彩色按键的招式图标 SVG 首屏和真实游戏内覆盖层截图，介绍一个实时识别双方角色的 Tekken 8 助手。
 
+
+### [suiyuan](https://github.com/mckf111/suiyuan)
+
+<p align="center">
+  <a href="https://github.com/mckf111/suiyuan">
+    <img src="https://raw.githubusercontent.com/mckf111/suiyuan/main/assets/readme/hero.jpg" width="100%" alt="suiyuan README hero">
+  </a>
+</p>
+
+Composes a hero from real in-game renders with a brush-script title and seal, followed by a six-scene board whose vertical place names reuse the tour's own UI, to introduce a browser 3D tour of a vanished Qing-dynasty garden in Nanjing. / 用作品实拍渲染合成毛笔字标题与朱印的首屏，再以沿用游戏竖排景名的六景拼板，介绍一座南京已经消失的清代园林的浏览器 3D 游览。
+
 ---
 
 ## How to Submit · 如何投稿
