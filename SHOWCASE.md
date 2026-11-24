@@ -114,6 +114,17 @@ Pairs the AGENTS.md, DESIGN.md, and UX.md file triad with a dimensioned AppShell
 
 Uses a dark monochrome gate-chain hero and a real `wf_begin` session card to show agent skills enforced as ordered stage gates. / 用深色单色门控链路首图与真实 `wf_begin` 会话卡，展示如何把 agent 技能编排为有序的阶段门控。
 
+
+### [Dubbing-room](https://github.com/Aoye-3/Dubbing-room)
+
+<p align="center">
+  <a href="https://github.com/Aoye-3/Dubbing-room">
+    <img src="https://raw.githubusercontent.com/Aoye-3/Dubbing-room/main/assets/readme/hero.svg" width="100%" alt="Dubbing-room README hero">
+  </a>
+</p>
+
+Combines a project-native SVG hero, real desktop screenshots, and a dual-model workflow diagram to explain how VoxCPM2 voice creation and IndexTTS2 line performance form a local dubbing studio. / 用项目原生 SVG 首屏、真实桌面截图和双模型工作流图，说明 VoxCPM2 声音创建与 IndexTTS2 台词表演如何组成一间本地配音室。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
