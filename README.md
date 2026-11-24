@@ -1,5 +1,5 @@
 <p align="right">
-  <strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a>
+  <strong>English</strong> · <a href="./README.zh-CN.md">简体中文（含 Oil Book / Oil UI / Oil Studio 实战案例）</a> · <a href="./README.ja.md">日本語</a>
 </p>
 
 <p align="center">
@@ -14,43 +14,41 @@
   <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="Real repositories already using beautify-github-readme.">
 </p>
 
-These are not hypothetical templates. The method is already used by nine public repositories, each with its own visual language and content structure:
+These are not hypothetical templates. The flagship products and open-source tools below use this method while keeping their own visual language and structure:
 
+- **[Oil UI](https://ui.oiloil.org/en/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** — an AI UI design Skill for Claude Code, Codex, and Cursor with 3-direction side-by-side comparison, 117+ live works, and MIT + Pro editions.
+- **[Oil Studio](https://studio.oiloil.org/en/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** — a native Apple Silicon screen recorder with automatic click zoom, offline Whisper transcript-based cutting, and one-time purchase with no subscription.
+- **[Oil Motion](https://github.com/oil-oil/oil-motion)** — a scroll- and pointer-driven interactive web animation Skill (`2.9k+` stars, MIT) built around compiled timelines and keyframe sequences.
 - **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — presents the method, results, and first-use path for programmatic slide creation in one visual system.
-- **[draw-ui](https://github.com/oil-oil/draw-ui)** — uses real UI outputs to explain the path from a brief and reference images to HTML/CSS reconstruction.
-- **[oil-icon](https://github.com/oil-oil/oil-icon)** — uses real icon sets to explain style locking, batch generation, slicing, and transparent delivery.
 - **[Selector](https://github.com/oil-oil/selector)** — puts page selection, structured context, and real output directly into the opening screen and examples.
-- **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — uses a character-driven team map to explain how one main Codex thread delegates exploration, bounded implementation, and independent review to four custom agents.
-- **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard.
-- **[summertown](https://github.com/SummerPapaya/summertown)** — uses a seaside-map hero and landmark showcase to introduce an interactive town map.
-- **[Wolfcha](https://github.com/oil-oil/wolfcha)** — combines SVG typography and an AI-generated character cutout to turn “play Werewolf solo” into a cinematic, project-native opening screen.
-- **[wecom-qoder-bridge](https://github.com/painrice/wecom-qoder-bridge)** — uses a terminal-mock hero and a five-node system map to expose a local qoderclicn agent behind a WeCom smart bot without needing a public domain.
 
-If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
+Explore more real-world examples from the community in **[SHOWCASE.md](./SHOWCASE.md)**. Want to share your public README? Open a PR to **`SHOWCASE.md` only** (please do not modify `README.md`, `README.zh-CN.md`, or `README.ja.md`).
 
-Below are four independent hero directions. They do not share one house style; each derives its typography, color, composition, and proof from the project itself.
+Below are three independent product hero directions. None of them share a template; each derives its palette, typography, and proof directly from the product itself:
 
 <p align="center">
-  <img src="./assets/readme/en/case-kubernetes.svg" width="100%" alt="Kubernetes README hero example with a black system layout and cluster relationship diagram.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-postgresql.svg" width="100%" alt="PostgreSQL README hero example with a deep blue editorial layout and relational tables.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-block-world.png" width="100%" alt="Block World hybrid README hero combining pixel-style SVG composition with an AI-generated builder character cutout.">
-</p>
-
-**Block World** shows a playful hybrid direction: SVG builds the pixel typography, grid, labels, and scene structure, while ImageGen and chroma-key removal supply the character that would be cumbersome to draw deterministically.
-
-<p align="center">
-  <a href="https://github.com/oil-oil/wolfcha">
-    <img src="./assets/readme/en/case-wolfcha.png" width="100%" alt="Wolfcha hybrid README hero combining precise SVG typography and table graphics with an AI-generated wolf game master.">
+  <a href="https://ui.oiloil.org/en/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/en/case-oil-ui.svg" width="100%" alt="Oil UI showcase card: warm exhibition-gallery layout with a 3-direction side-by-side UI comparison board, 117+ live works, and MIT plus Pro options.">
   </a>
 </p>
 
-**[Wolfcha](https://github.com/oil-oil/wolfcha)** is a real hybrid case: ImageGen created the project-specific wolf game master, a fixed chroma-key workflow removed the background, and SVG kept the typography, moonlit table, seat map, and composition precise.
+**[Oil UI](https://ui.oiloil.org/en/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** uses a quiet exhibition-gallery palette and an architectural 3-column comparison board with selection handles to make side-by-side UI exploration legible at a glance.
+
+<p align="center">
+  <a href="https://studio.oiloil.org/en/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme">
+    <img src="./assets/readme/en/case-oil-studio.png" width="100%" alt="Oil Studio hybrid showcase card: real Oil Studio Mac app icon, studio-paper SVG typography, viewfinder framing, and an AI-generated transparent manga-ink character illustration.">
+  </a>
+</p>
+
+**[Oil Studio](https://studio.oiloil.org/en/?utm_source=github&utm_medium=readme&utm_campaign=beautify-github-readme)** demonstrates a real hybrid SVG workflow: deterministic SVG controls the real Mac app icon lockup, typography, pills, and viewfinder chrome, while a transparent AI-generated manga-ink illustration brings the brand character and filmstrip-editing arm to life.
+
+<p align="center">
+  <a href="https://github.com/oil-oil/oil-motion">
+    <img src="./assets/readme/en/case-oil-motion.svg" width="100%" alt="Oil Motion showcase card: high-contrast editorial layout with a four-frame keyframe sequence strip, cubic-bezier easing curve, and scroll trigger nodes.">
+  </a>
+</p>
+
+**[Oil Motion](https://github.com/oil-oil/oil-motion)** pairs crisp editorial typography with a dark kinetic timeline stage—combining a 4-frame sequence strip, cubic-bezier easing handles, and scroll/pointer driver indicators.
 
 <p align="center">
   <img src="./assets/readme/en/section-why.svg" width="100%" alt="01 Make the project clear before asking people to keep reading.">
@@ -98,7 +96,7 @@ The reusable production guidance lives here:
   <img src="./assets/readme/en/workflow.svg" width="100%" alt="Understand the project, set the direction, structure the content, build the visuals, and review the preview.">
 </p>
 
-The process keeps three promises: use real project material, never invent capabilities, and never publish without explicit approval.
+The process keeps four promises: use real project material, never invent capabilities, keep private files and data out of what gets published, and never publish without explicit approval.
 
 <p align="center">
   <img src="./assets/readme/en/section-use.svg" width="100%" alt="03 Send the repository to your Agent.">
@@ -155,6 +153,12 @@ Use $beautify-github-readme to audit this README for clarity, hierarchy, trust, 
 Whole-README mode delivers a local preview, visual assets, and a README diff. Asset-only mode delivers source assets, rendered previews, optional GIF derivatives, and embed snippets. Commits, pushes, PRs, and publishing always require explicit authorization.
 
 <p align="center">
+  <a href="https://github.com/oil-oil/oil-ui"><img src="https://raw.githubusercontent.com/oil-oil/oil-ui/main/assets/readme/hero.webp" width="600" alt="oil-ui: push AI UI design further"></a>
+  <br>
+  <strong><a href="https://github.com/oil-oil/oil-ui">Want better UI designs from AI? Try oil-ui →</a></strong><br>Explore distinct styles, compare them side by side, and refine the rendered result.
+</p>
+
+<p align="center">
   <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="Follow the maker on X at @I_am_oil_oil"></a>
 </p>
 
@@ -163,3 +167,15 @@ MIT License
 ---
 
 This README is also a working example: it combines a project-native hero, a theme wall, real adoption proof, section transitions, and readable Markdown instead of rasterizing the whole page.
+
+## 配置、依赖与使用边界
+
+Markdown/SVG 本身无需账号或 API Key；生成 PNG/WebP 或采用 AI 生图时需要对应渲染与已授权生成工具。
+
+不伪造 star、性能、用户或品牌背书；本机路径、私有项目内容、原始日志和测试数据默认不进 README 和公开文件；修改后检查链接、素材与实际渲染。发布与合并遵守当前任务授权。
+
+使用示例：
+
+```text
+优化这个仓库的 README 首页，保留真实项目事实。
+```
