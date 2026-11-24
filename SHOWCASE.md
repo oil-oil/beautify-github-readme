@@ -27,7 +27,15 @@ Uses a project-native SVG hero with OBD-II PID data and a real dashboard screens
 
 ## AI & Agent Projects · AI 与 Agent 项目
 
-<!-- Submit AI / Agent / Skill / LLM workflow repositories here using the visual entry format below -->
+### [wecom-qoder-bridge](https://github.com/painrice/wecom-qoder-bridge)
+
+<p align="center">
+  <a href="https://github.com/painrice/wecom-qoder-bridge">
+    <img src="https://raw.githubusercontent.com/painrice/wecom-qoder-bridge/main/assets/readme/hero.svg" width="100%" alt="wecom-qoder-bridge README hero">
+  </a>
+</p>
+
+Uses a terminal-mock hero and a five-node system map to expose a local qoderclicn agent behind a WeCom smart bot without needing a public domain. / 用终端 mock 做 hero、再用一张五节点系统图，讲清楚怎么让企微智能机器人直接调起本机 qoderclicn，全程不需要公网域名。
 
 ---
 
