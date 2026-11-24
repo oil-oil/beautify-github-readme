@@ -1,6 +1,6 @@
 # Writing README SVGs
 
-Use SVG for deterministic layout, typography, diagrams, and title systems that must scale cleanly inside GitHub.
+Use SVG for deterministic layout, typography, diagrams, and title systems that must scale cleanly inside GitHub. When the user selects generated raster material inside an SVG-controlled layout, read [hybrid-svg-production.md](hybrid-svg-production.md) and publish the rendered PNG/WebP by default.
 
 For motion, keep the SVG as the editable source and derive a GIF for GitHub playback. Read [motion-production.md](motion-production.md) before animating or converting an asset.
 
@@ -141,6 +141,8 @@ Export PNG/WebP when it contains:
 - effects that GitHub SVG sanitization may remove.
 
 If the title and screenshot belong together, compose them into one raster board. Keep commands, links, and long explanations in Markdown.
+
+For hybrid composition, preserve the SVG layout and transparent raster subject as editable source layers. Do not rely on local or remote raster references inside the published SVG, and do not inflate the asset with a large base64 layer merely to keep an `.svg` extension.
 
 ## Embed in README
 

@@ -87,6 +87,8 @@ category + repository name + concrete description + real proof
 
 For vector material, keep the whole composition in SVG. For screenshots, photos, or generated raster work, compose the title and images in a layout tool or HTML canvas and export one PNG/WebP. If many artifacts need more room, keep the SVG title and raster proof as two adjacent README modules. Do not rely on fragile external image links inside SVG.
 
+When pure SVG and generated raster material are both credible for the hero, follow the implementation-choice gate in `SKILL.md` before producing either version. Generated people, mascots, or scenes must have a project-specific communication job; they are not substitutes for real proof.
+
 ## Use project-specific tests
 
 Before accepting the hero, ask:

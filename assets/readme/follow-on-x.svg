@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="104" viewBox="0 0 520 104" role="img" aria-labelledby="title desc">
+  <title id="title">Follow oil-oil on X</title>
+  <desc id="desc">A modern black-and-white link card for the maker's X profile, @I_am_oil_oil.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".58" stop-color="#F7F8FA"/>
+      <stop offset="1" stop-color="#E9EDF3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#B9C7DE" stop-opacity=".48"/>
+      <stop offset=".55" stop-color="#DDE4EF" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#111111"/>
+      <stop offset=".7" stop-color="#66758D"/>
+      <stop offset="1" stop-color="#B9C7DE" stop-opacity=".2"/>
+    </linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0V16" fill="none" stroke="#111111" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="520" height="104" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="520" height="104" fill="url(#surface)"/>
+    <rect width="520" height="104" fill="url(#grid)"/>
+    <ellipse cx="449" cy="52" rx="108" ry="92" fill="url(#glow)"/>
+
+    <g transform="translate(31 19)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text x="0" y="12" fill="#666666" font-size="9" font-weight="750" letter-spacing="2.2">FOLLOW THE MAKER</text>
+      <text x="0" y="48" fill="#0A0A0A" font-size="27" font-weight="800" letter-spacing="-.7">@I_am_oil_oil</text>
+      <path d="M0 61H316" stroke="url(#rule)" stroke-width="1"/>
+      <text x="0" y="75" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="7.5" font-weight="650" letter-spacing="1.1">X.COM / I_AM_OIL_OIL</text>
+    </g>
+
+    <g transform="translate(411)">
+      <path d="M22 22h18.2l14.9 20.1L71.8 22H79L58.3 47.8 79 79H60.8L44.7 57.4 27.2 79H20l21.5-26.8L22 22zm14.3 7.2L65 72h7.1L43.5 29.2h-7.2z" fill="#0A0A0A"/>
+      <path d="M7 14h10M7 14v10M100 90H90M100 90V80" fill="none" stroke="#66758D" stroke-width="1" opacity=".6"/>
+    </g>
+  </g>
+
+  <rect x=".5" y=".5" width="519" height="103" rx="13.5" fill="none" stroke="#B8C0CC"/>
+</svg>

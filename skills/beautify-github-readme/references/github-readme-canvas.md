@@ -14,6 +14,14 @@ Recommended image embed:
 </p>
 ```
 
+For a hybrid SVG composition, publish the rendered PNG/WebP instead of an SVG that depends on raster references:
+
+```html
+<p align="center">
+  <img src="./assets/readme/hero.png" width="100%" alt="Project name and plain-language value">
+</p>
+```
+
 ## SVG defaults
 
 - Use a `1200`-unit-wide `viewBox` for full-width modules.
@@ -49,10 +57,15 @@ Store repository-specific visuals under:
 ```text
 assets/readme/
 ├── hero.svg
+├── hero.png
 ├── hero.gif
 ├── showcase.png
 ├── section-*.svg
-└── workflow.svg
+├── workflow.svg
+└── source/
+    ├── hero-layout.svg
+    ├── hero-subject.png
+    └── hero-prompt.txt
 ```
 
 Use lowercase hyphenated names. Remove discarded variants before publishing unless the user wants to retain source explorations.

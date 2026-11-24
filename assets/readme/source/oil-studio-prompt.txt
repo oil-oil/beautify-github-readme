@@ -1,0 +1,19 @@
+Reference roles:
+- Image 1 is ONLY the brand character head and icon style reference: exact round white head with three small curved black hair tufts on the top-right, thin round black wire-frame glasses, two small solid black dot eyes, subtle curved eyebrows, calm gentle smile, fine circular halftone dot shading along the left edge of the head, and coral-vermilion (#F2543B) accent.
+- Image 2 is ONLY the illustration linework, body proportion, and mechanical-arm filmstrip style reference: bold clean black manga-ink outlines with varied stroke weight, minimal black stick-figure body and limbs with oval white hands, classic circular halftone dot screentone shading, crisp white fills, coral-vermilion (#F2543B) hatched highlight on snipped filmstrip frames, and a tiny warm-yellow four-point sparkle.
+
+Scene & composition (horizontal 3:2 transparent spot illustration for the right stage of a README showcase card):
+- On the left-center of the scene, the minimal round-headed glasses stick-figure protagonist (from Image 1 and Image 2, wearing the exact round glasses and three tiny top-right hair tufts, facing slightly left-to-center with a relaxed, pleased expression) sits comfortably operating a sleek, minimal open Mac laptop resting on a compact floating desk edge.
+- Directly above and around the laptop screen floats a crisp minimal black viewfinder corner bracket frame with a single solid coral-vermilion (#F2543B) circular REC dot at the top-right corner of the viewfinder, symbolizing click auto-zoom screen recording.
+- Flowing gracefully out from the right side of the laptop is a curved cinema filmstrip ribbon paired with subtle minimal audio waveform bars along its lower edge.
+- On the right side, a nimble articulated mechanical studio arm (matching Image 2's clean ink and halftone shading) holds a small pair of sharp studio scissors, neatly snipping out a coral-vermilion (#F2543B) diagonally hatched segment from the filmstrip, with one tiny warm-yellow four-point sparkle star right at the snip point.
+
+Visual style:
+- Professional editorial manga/comic ink spot illustration matching Image 2 precisely.
+- Confident varied-weight black ink outlines, crisp pure white object fills, classic circular halftone dot screentone shading in light-to-medium grey, coral-vermilion (#F2543B) accent used ONLY on the floating REC dot and the snipped filmstrip segment, and one tiny warm-yellow 4-point sparkle.
+- Clean, readable silhouette with balanced open breathing room so every element reads clearly at README width.
+
+Strict constraints:
+- Genuinely transparent background with clean alpha channel (no backdrop, no white rectangle, no solid card, no floor plane, no cast shadow outside the artwork).
+- Generous empty transparent margin around all four sides so no part of the character, laptop, viewfinder, robotic arm, or filmstrip touches the canvas border.
+- ZERO text, ZERO letters, ZERO numbers, ZERO logos, ZERO captions, ZERO watermarks anywhere in the image.
