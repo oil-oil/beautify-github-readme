@@ -59,6 +59,17 @@ Uses an animated open-fan-out hero (one message routed from a decision point to 
 
 Uses a command-line-styled SVG hero and a four-stage mechanism strip to explain how an MCP server drives AutoCAD for Mac through its own command line. / 用命令行风格的 SVG 标题和四步机制图，说明一个 MCP 服务器如何通过 AutoCAD for Mac 自身的命令行来驱动它。
 
+
+### [validating-business-ideas](https://github.com/S7arFish/validating-business-ideas)
+
+<p align="center">
+  <a href="https://github.com/S7arFish/validating-business-ideas">
+    <img src="https://raw.githubusercontent.com/S7arFish/validating-business-ideas/main/assets/readme/hero.svg" width="100%" alt="validating-business-ideas README hero">
+  </a>
+</p>
+
+Uses an evidence-labeled hero and five-stage decision workflow to explain how a business idea is tested against demand, economics, and the path to withdrawable revenue. / 用证据等级首屏和五阶段决策流程，说明如何从真实需求、经济模型与提现路径三个方面验证商业想法。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
