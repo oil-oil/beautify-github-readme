@@ -23,6 +23,17 @@
 
 Uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard. / 用项目原生 SVG 标题和真实仪表盘截图，展示一个自托管车辆遥测仪表盘。
 
+
+### [codeblast](https://github.com/alloevil/codeblast)
+
+<p align="center">
+  <a href="https://github.com/alloevil/codeblast">
+    <img src="https://raw.githubusercontent.com/alloevil/codeblast/main/assets/readme/hero.svg" width="100%" alt="codeblast README hero">
+  </a>
+</p>
+
+Builds its hero from a committed impact run in the repo itself: one symbol, its blast radius across direct / transitive / test tiers, and the import edge with its file:line. / 首屏直接用仓库里真实提交的 impact 结果：一个符号、它在 direct / transitive / tests 三档上的波及面，以及带 file:line 的调用边。
+
 ---
 
 ## AI & Agent Projects · AI 与 Agent 项目
