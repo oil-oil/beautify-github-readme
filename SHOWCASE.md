@@ -34,6 +34,17 @@ Uses a project-native SVG hero with OBD-II PID data and a real dashboard screens
 
 Builds its hero from a committed impact run in the repo itself: one symbol, its blast radius across direct / transitive / test tiers, and the import edge with its file:line. / 首屏直接用仓库里真实提交的 impact 结果：一个符号、它在 direct / transitive / tests 三档上的波及面，以及带 file:line 的调用边。
 
+
+### [t3code-zh-cn](https://github.com/Br1efx/t3code-zh-cn)
+
+<p align="center">
+  <a href="https://github.com/Br1efx/t3code-zh-cn">
+    <img src="https://raw.githubusercontent.com/Br1efx/t3code-zh-cn/main/assets/readme/hero.svg" width="100%" alt="t3code-zh-cn README hero">
+  </a>
+</p>
+
+Uses a unified warm-paper drafting SVG system with the native T3 mark, a terminology before/after ledger, and a three-column architecture strip to introduce a Simplified Chinese community preview of T3 Code. / 用统一的暖纸制图 SVG 视觉系统、术语精校对照表和三栏机制图，介绍 T3 Code 简体中文社区预览版。
+
 ---
 
 ## AI & Agent Projects · AI 与 Agent 项目
