@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Oil Motion — Scroll and Pointer Interactive Web Animation Skill</title>
+  <desc id="desc">High-contrast editorial showcase card for Oil Motion featuring a keyframe sequence strip, cubic-bezier easing curve, scroll trigger nodes, 2.9k+ GitHub stars, and MIT license.</desc>
+
+  <!-- Crisp editorial paper canvas with bold ink split -->
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="#F3F2EC" stroke="#DAD7CC" stroke-width="2"/>
+  <path d="M56 76H542" stroke="#D5D2C7" stroke-width="1"/>
+
+  <!-- Left: Bold Kinetic Editorial Typography -->
+  <g id="title-block" transform="translate(56 44)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="0" y="12" fill="#D9451E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="2">TIMELINE &amp; INTERACTION SKILL</text>
+
+    <text x="0" y="102" fill="#121316" font-size="62" font-weight="800" letter-spacing="-2.4">Oil Motion</text>
+
+    <text x="0" y="148" fill="#2A2C32" font-size="22" font-weight="500">Scroll &amp; Pointer Interactive Web</text>
+    <text x="0" y="178" fill="#2A2C32" font-size="22" font-weight="500">Animation Skill</text>
+
+    <!-- Metadata pills -->
+    <g transform="translate(0 206)">
+      <rect x="0" y="0" width="126" height="32" rx="8" fill="#121316"/>
+      <text x="63" y="21" text-anchor="middle" fill="#F3F2EC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">2.9k+ Stars</text>
+
+      <rect x="138" y="0" width="66" height="32" rx="8" fill="#E6E4DC" stroke="#CFCBC0" stroke-width="1"/>
+      <text x="171" y="21" text-anchor="middle" fill="#1D1F24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">MIT</text>
+
+      <rect x="216" y="0" width="144" height="32" rx="8" fill="#FDEAE4" stroke="#F2B8A7" stroke-width="1"/>
+      <text x="288" y="21" text-anchor="middle" fill="#B83513" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">timeline.json</text>
+    </g>
+
+    <text x="0" y="276" fill="#5D6068" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600">github.com/oil-oil/oil-motion  →</text>
+  </g>
+
+  <!-- Right: Dark Kinetic Stage — Keyframe Strip + Bezier Curve + Scroll Trigger -->
+  <g id="motion-stage" transform="translate(574 28)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <rect x="0" y="0" width="572" height="304" rx="18" fill="#131418" stroke="#272A33" stroke-width="1.5"/>
+
+    <!-- Top Keyframe Sequence Strip -->
+    <text x="22" y="28" fill="#8C93A3" font-size="12" font-weight="700" letter-spacing="1.5">KEYFRAME SEQUENCE</text>
+    <text x="550" y="28" text-anchor="end" fill="#E84C22" font-size="12" font-weight="700">SCRUB · 60 FPS</text>
+
+    <g transform="translate(22 40)">
+      <!-- Frame 01 -->
+      <rect x="0" y="0" width="122" height="84" rx="10" fill="#1C1F26" stroke="#2F3440" stroke-width="1"/>
+      <text x="10" y="18" fill="#7D8596" font-size="11">F01 · 0%</text>
+      <rect x="44" y="34" width="32" height="32" rx="6" fill="none" stroke="#8C93A3" stroke-width="2"/>
+      <circle cx="60" cy="50" r="4" fill="#8C93A3"/>
+
+      <!-- Frame 02 -->
+      <rect x="135" y="0" width="122" height="84" rx="10" fill="#1C1F26" stroke="#2F3440" stroke-width="1"/>
+      <text x="145" y="18" fill="#7D8596" font-size="11">F02 · 33%</text>
+      <g transform="translate(196 50) rotate(22)">
+        <rect x="-17" y="-17" width="34" height="34" rx="7" fill="none" stroke="#C5CBD8" stroke-width="2"/>
+        <circle cx="0" cy="0" r="4.5" fill="#C5CBD8"/>
+      </g>
+
+      <!-- Frame 03 (Active scroll focus) -->
+      <rect x="270" y="0" width="122" height="84" rx="10" fill="#231919" stroke="#E84C22" stroke-width="2"/>
+      <text x="280" y="18" fill="#FF8C6B" font-size="11" font-weight="700">F03 · 66%</text>
+      <g transform="translate(331 50) rotate(45)">
+        <rect x="-19" y="-19" width="38" height="38" rx="8" fill="#E84C22" fill-opacity="0.22" stroke="#E84C22" stroke-width="2.2"/>
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Frame 04 -->
+      <rect x="405" y="0" width="122" height="84" rx="10" fill="#1C1F26" stroke="#2F3440" stroke-width="1"/>
+      <text x="415" y="18" fill="#7D8596" font-size="11">F04 · 100%</text>
+      <g transform="translate(466 50) rotate(68)">
+        <rect x="-18" y="-18" width="36" height="36" rx="10" fill="none" stroke="#F3F2EC" stroke-width="2"/>
+        <circle cx="0" cy="0" r="4.5" fill="#F3F2EC"/>
+      </g>
+    </g>
+
+    <!-- Middle: Cubic-Bezier Easing Curve + Scroll Trigger -->
+    <g transform="translate(22 140)">
+      <rect x="0" y="0" width="528" height="96" rx="12" fill="#181A20" stroke="#292D38" stroke-width="1"/>
+      <!-- Subtle coordinate grid -->
+      <path d="M24 24H504M24 48H504M24 72H504M144 12V84M264 12V84M384 12V84" stroke="#232732" stroke-width="1"/>
+
+      <!-- Tangent handle lines -->
+      <path d="M36 76L164 76M500 20L352 20" stroke="#5D667A" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <circle cx="164" cy="76" r="4.5" fill="#181A20" stroke="#9EA7BA" stroke-width="1.8"/>
+      <circle cx="352" cy="20" r="4.5" fill="#181A20" stroke="#9EA7BA" stroke-width="1.8"/>
+
+      <!-- Main Bezier Curve -->
+      <path d="M36 76 C 164 76, 352 20, 500 20" fill="none" stroke="#E84C22" stroke-width="3.2" stroke-linecap="round"/>
+
+      <!-- Start / Active / End nodes -->
+      <circle cx="36" cy="76" r="5" fill="#F3F2EC"/>
+      <circle cx="331" cy="34" r="7" fill="#E84C22" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="500" cy="20" r="5" fill="#F3F2EC"/>
+
+      <!-- Node callout pill -->
+      <rect x="348" y="42" width="144" height="24" rx="6" fill="#261B1A" stroke="#E84C22" stroke-width="1"/>
+      <text x="420" y="58" text-anchor="middle" fill="#FFD3C6" font-size="11" font-weight="700">scrollY = 0.66</text>
+
+      <text x="36" y="24" fill="#8C93A3" font-size="11">cubic-bezier(0.22, 1, 0.36, 1)</text>
+    </g>
+
+    <!-- Bottom: Trigger Timeline Track -->
+    <g transform="translate(22 250)">
+      <rect x="0" y="0" width="528" height="36" rx="10" fill="#1C1F26" stroke="#2E3340" stroke-width="1"/>
+      <text x="16" y="22" fill="#9AA2B3" font-size="11" font-weight="700">DRIVERS</text>
+
+      <rect x="86" y="7" width="84" height="22" rx="6" fill="#E84C22"/>
+      <text x="128" y="22" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">SCROLL</text>
+
+      <rect x="180" y="7" width="88" height="22" rx="6" fill="#2A303C"/>
+      <text x="224" y="22" text-anchor="middle" fill="#D5DBE6" font-size="11" font-weight="700">POINTER</text>
+
+      <rect x="278" y="7" width="76" height="22" rx="6" fill="#2A303C"/>
+      <text x="316" y="22" text-anchor="middle" fill="#D5DBE6" font-size="11" font-weight="700">DRAG</text>
+
+      <rect x="364" y="7" width="148" height="22" rx="6" fill="#232833"/>
+      <text x="438" y="22" text-anchor="middle" fill="#9EA7BA" font-size="11">00f ───●── 72f</text>
+    </g>
+  </g>
+</svg>

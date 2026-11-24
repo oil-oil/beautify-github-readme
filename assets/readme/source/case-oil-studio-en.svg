@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Oil Studio — Record, edit and caption in one Mac app</title>
+  <desc id="desc">Hybrid showcase card for Oil Studio combining the real Oil Studio Mac app icon, editorial studio typography, and an AI-generated manga-ink illustration of the Oil Studio character recording on a Mac while a robotic arm trims a filmstrip.</desc>
+
+  <defs>
+    <linearGradient id="studio-paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCFBF9"/>
+      <stop offset="100%" stop-color="#F5F3EE"/>
+    </linearGradient>
+    <pattern id="stage-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#D5D0C6"/>
+    </pattern>
+  </defs>
+
+  <!-- Crisp bright studio-paper canvas -->
+  <rect x="1" y="1" width="1198" height="358" rx="22" fill="url(#studio-paper)" stroke="#E3DFD6" stroke-width="2"/>
+
+  <!-- Left column: Studio brand lockup & editorial typography -->
+  <g id="title-block" transform="translate(52 40)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <!-- Eyebrow with coral REC dot -->
+    <g transform="translate(0 0)">
+      <circle cx="6" cy="7" r="5" fill="#F2543B"/>
+      <text x="20" y="12" fill="#C93B24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.6">MACOS · APPLE SILICON · HYBRID CASE</text>
+    </g>
+
+    <!-- Real Oil Studio App Icon + Wordmark lockup -->
+    <g transform="translate(-4 28)">
+      <image href="./oil-studio-icon.png" x="0" y="0" width="68" height="68" preserveAspectRatio="xMidYMid meet"/>
+      <text x="80" y="51" fill="#15171A" font-size="50" font-weight="800" letter-spacing="-1.8">Oil Studio</text>
+    </g>
+
+    <!-- Headline & concise subcopy -->
+    <text x="0" y="136" fill="#181B20" font-size="22" font-weight="700" letter-spacing="-0.3">Record, edit and caption in one Mac app</text>
+    <text x="0" y="166" fill="#5D646E" font-size="18" font-weight="480">Click auto-zoom · Offline Whisper transcript cut</text>
+
+    <!-- Feature pills (evergreen, no hardcoded price) -->
+    <g transform="translate(0 190)">
+      <rect x="0" y="0" width="214" height="36" rx="10" fill="#181B20"/>
+      <text x="14" y="23" fill="#F2543B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">$</text>
+      <text x="30" y="23" fill="#F8F9FA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="700">oilstudio</text>
+      <text x="114" y="23" fill="#A6AEBA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5">CLI / Agent</text>
+
+      <rect x="226" y="0" width="234" height="36" rx="10" fill="#FEF1EE" stroke="#F4BEB4" stroke-width="1.2"/>
+      <text x="343" y="23" text-anchor="middle" fill="#C93B24" font-size="13" font-weight="700">One-Time · No Subscription</text>
+    </g>
+
+    <!-- Subtle footer hairline & URL -->
+    <path d="M0 248H460" stroke="#E7E3DA" stroke-width="1"/>
+    <text x="0" y="274" fill="#6F757F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13.5" font-weight="600">studio.oiloil.org/en  →</text>
+  </g>
+
+  <!-- Right stage: Viewfinder studio frame + generated transparent manga-ink character -->
+  <g id="hybrid-stage" transform="translate(556 22)">
+    <!-- Clean bright stage card with subtle dot grid -->
+    <rect x="0" y="0" width="610" height="316" rx="18" fill="#FFFFFF" fill-opacity="0.78" stroke="#E5E1D8" stroke-width="1.2"/>
+    <rect x="16" y="16" width="578" height="284" rx="12" fill="url(#stage-dots)" opacity="0.45"/>
+
+    <!-- Viewfinder L-corner brackets echoing the Oil Studio icon -->
+    <g fill="none" stroke="#1B1E23" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.88">
+      <path d="M18 40V22C18 19.8 19.8 18 22 18H40"/>
+      <path d="M570 18H588C590.2 18 592 19.8 592 22V40"/>
+      <path d="M18 276V294C18 296.2 19.8 298 22 298H40"/>
+      <path d="M570 298H588C590.2 298 592 296.2 592 294V276"/>
+    </g>
+
+    <!-- Top studio chrome inside stage -->
+    <text x="48" y="36" fill="#8A867E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">VIEWFINDER · AI CUT</text>
+    <g transform="translate(464 20)">
+      <rect x="0" y="0" width="96" height="24" rx="12" fill="#FEF1EE" stroke="#F4BEB4" stroke-width="1"/>
+      <circle cx="15" cy="12" r="4" fill="#F2543B"/>
+      <text x="26" y="16" fill="#C93B24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700">REC 60fps</text>
+    </g>
+
+    <!-- AI-generated transparent manga-ink character + laptop + robotic arm filmstrip -->
+    <image href="./oil-studio-subject.png" x="52" y="42" width="506" height="242" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Subtle bottom timeline ruler & playhead -->
+    <g transform="translate(48 296)" stroke="#CBC6BC" stroke-width="1.2" stroke-linecap="round">
+      <path d="M0 0H514" stroke="#E2DDD3"/>
+      <path d="M0 -4V4M64 -3V3M128 -4V4M192 -3V3M256 -4V4M320 -3V3M384 -4V4M448 -3V3M514 -4V4"/>
+      <path d="M336 -6V6" stroke="#F2543B" stroke-width="2"/>
+      <circle cx="336" cy="-6" r="3" fill="#F2543B" stroke="none"/>
+    </g>
+  </g>
+</svg>
