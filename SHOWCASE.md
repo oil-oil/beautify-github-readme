@@ -125,6 +125,17 @@ Uses a dark monochrome gate-chain hero and a real `wf_begin` session card to sho
 
 Combines a project-native SVG hero, real desktop screenshots, and a dual-model workflow diagram to explain how VoxCPM2 voice creation and IndexTTS2 line performance form a local dubbing studio. / 用项目原生 SVG 首屏、真实桌面截图和双模型工作流图，说明 VoxCPM2 声音创建与 IndexTTS2 台词表演如何组成一间本地配音室。
 
+
+### [MaestrIQ](https://github.com/alexxhchen-nu/MaestrIQ)
+
+<p align="center">
+  <a href="https://github.com/alexxhchen-nu/MaestrIQ">
+    <img src="https://raw.githubusercontent.com/alexxhchen-nu/MaestrIQ/main/assets/readme/en/hero.svg" width="100%" alt="MaestrIQ README hero">
+  </a>
+</p>
+
+Pairs a purple textart.sh ASCII heading banner with a live terminal step-preview card, a three-tier safety guardrail comparison, and a four-stage disk-verification diagram for a plain-English file orchestration CLI. / 用紫色 textart.sh 风格 ASCII 标题横幅配合真实终端干跑预览卡、三级风险护栏对比图与四步磁盘核验工作流，介绍一款面向非技术用户的自然语言文件整理与多步任务编排 CLI。
+
 ---
 
 ## Creative & Interactive · 创意与交互项目
